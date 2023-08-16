@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body{
+    background-color: #000;
+}
+div{
+    display: inline-flex;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inherit;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .logotipe{
+    color: white;
+  }
+
+  .material-icons-round {
+    padding-top: 17px;
+    padding-right: 10px;
+  }
+  
+  /* Muda de cor quando o mouse passa por cima da opção */
+  li a:hover {
+    background-color: #111;
+  }
