@@ -4,7 +4,8 @@ body{
     background-color: #000;
 }
 div{
-    display: inline-flex;
+    display: block;
+    
 }
 ul {
     list-style-type: none;
@@ -25,8 +26,12 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  .logotipe{
+  div.logo_topmenu{
     color: white;
+    float: left!important;
+  }
+  div.menubar{
+    float: right!important;
   }
 
   .material-icons-round {
