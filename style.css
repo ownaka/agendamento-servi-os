@@ -1,45 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
-body{
-    background-color: #000;
-}
-div{
-    display: block;
-    
-}
-ul {
-    list-style-type: none;
+*{
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    display: inherit;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: inline-flex;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    outline: 0;
+    appearance: 0;
+    border: 0;
     text-decoration: none;
-  }
-  div.logo_topmenu{
-    color: white;
-    float: left!important;
-  }
-  div.menubar{
-    float: right!important;
-  }
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
 
-  .material-icons-round {
-    padding-top: 17px;
-    padding-right: 10px;
-  }
-  
-  /* Muda de cor quando o mouse passa por cima da opção */
-  li a:hover {
-    background-color: #111;
-  }
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    background-color: #000;
+}
+
+a{
+    color: white;
+}
+
+image{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3{
+    font-weight: 100;
+    font-size: 0.87rem;
+}
+
+small{
+    font-size: 0.76rem;
+}
+
+p{
+    color: white;
+}
+
+b{
+    color: white;
+}
+
+.container{
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+}
+aside{
+    width: 96vw;
+}
+
+aside.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+aside .menu .logo{
+    display: flex;
+    gap: 0.5rem;
+    float: left;
+    margin-top: 2rem;
+}
+
+aside .menu .logo img{
+    width: 2rem;
+    height: 2rem;
+}
+
+aside .menubar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    gap: 1rem;
+    position: relative;
+    margin: 2rem;
+    float: right!important;
+}
+
+aside .menubar a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+aside .menubar span{
+    margin: 1rem;
+}
