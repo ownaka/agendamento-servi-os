@@ -1,0 +1,82 @@
+
+body{
+    background-color: #FFF8ED;
+    
+   
+}
+
+hmtl{
+    font-size: 14px;
+}
+.home{
+    color: #9F995B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 10px;
+}
+.sobre{
+    color: #3D0D07;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600; 
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.projetolares{
+    color: #AC4430;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 10px;
+    
+}
+.lares{
+    color: #3D0D07;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 10px;
+}
+.contatos{
+    color: #3D0D07;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 10px;
+    
+    
+
+}
+.right-aligned {
+ text-align: right; 
+ white-space: nowrap; 
+ 
+ 
+}
+.right-left{
+    text-align: left; 
+    white-space: nowrap;
+      
+}
+
+
+img{
+    width: 100%;
+}
+
