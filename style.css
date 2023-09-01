@@ -18,11 +18,11 @@ body{
     height: 100vh;
     font-family: 'Roboto',sans-serif;
     color: white;
-    background-color: #000;
+    background-color: #FAD6AA;
 }
 
 a{
-    color: white;
+    color: #ac4430;
 }
 
 image{
@@ -101,6 +101,7 @@ aside .menubar a{
     display: flex;
     align-items: center;
     flex-direction: row;
+    text: bold;
 }
 
 aside .menubar span{
