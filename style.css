@@ -106,3 +106,24 @@ aside .menubar a{
 aside .menubar span{
     margin: 1rem;
 }
+
+footer .Rodape {
+
+position: absolute;
+width: 360px;
+height: 30px;
+left: 789px;
+top: 3006px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+text-align: center;
+
+
+color: #B76336;
+
+}
