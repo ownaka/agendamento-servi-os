@@ -1,0 +1,232 @@
+.retangulo21{
+    width: 1440px;
+    height: 3492px;
+    flex-shrink: 0; 
+    background:  #FFF8ED;
+}
+.image{
+    width: 1443px;
+    height: 335px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.sessão1{
+    width: 1379.309px;
+    height: 676.497px;
+    flex-shrink: 0;
+}
+.tituloses1{
+    color: var(--marrom, #B76336);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.textses1{
+    width: 680px;
+    height: 198px;
+    flex-shrink: 0;
+    color: var(--marrom, #B76336);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--laranja, #FD982B);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.lares{
+    color: var(--vermelho, #AC4430);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.sobre{
+    color: var(--vermelho, #AC4430);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.contato{
+    color: var(--vermelho, #AC4430);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.home{
+    color: var(--vermelho, #AC4430);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.projetoLARES{
+    width: 289px;
+    height: 64px;
+    flex-shrink: 0;
+    color: var(--bege, #FAD6AA);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #AC4430;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.íconehome{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+.vector{
+
+}
+.vector2{
+    
+}
+.vector3{
+    
+}
+.vector4{
+    
+}
+
+.sessão2{
+    width: 1081px;
+    height: 292px;
+    flex-shrink: 0;
+}
+.tituloses2{
+    color: var(--vermelho, #AC4430);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.textoses2{
+    color: var(--marrom, #B76336);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.divisória{
+    width: 4px;
+    height: 292px;
+    flex-shrink: 0;
+    
+}
+.rentagulo22{
+    width: 4px;
+    height: 111px;
+    flex-shrink: 0;
+    background: var(--verde, #9F995B);
+}
+.rentagulo23{
+    width: 4px;
+    height: 138px;
+    flex-shrink: 0;
+    background: var(--marrom, #B76336);
+    
+}
+.rentagulo24{
+    width: 4px;
+    height: 181px;
+    flex-shrink: 0;
+    background: var(--vermelho, #AC4430);
+    
+}
+.rentagulo25{
+    width: 4px;
+    height: 222px;
+    flex-shrink: 0;
+    background: var(--laranja, #FD982B);
+    
+   
+}
+.rentagulo26{
+    width: 4px;
+    height: 292px;
+    flex-shrink: 0;
+    background: var(--bege, #FAD6AA);
+    
+}
+.vector5{
+
+}
+.vector6{
+    
+}
+.vector7{
+    
+}
+.vector8{
+    
+}
+.footer{
+    width: 1192px;
+    height: 120px;
+    flex-shrink: 0;
+    
+}
+.projfooter{
+    width: 252px;
+    height: 56px;
+    flex-shrink: 0;
+    color: var(--bege, #FAD6AA);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.laresfooter{
+    color: #AC4430;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.iconefooter{
+    width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    
+}
