@@ -108,11 +108,10 @@ aside .menubar span{
 }
 .alinhamento-rodape{
     display: flex;
-    top: 3006px;
-    left: 789px;
+    float:inline-end;
     align-items: center;
 }
-.texto-rodape{
-    top: 3006px;
-    left: 789px;
+
+aside .footer{
+    
 }
