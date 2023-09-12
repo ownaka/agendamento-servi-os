@@ -106,12 +106,57 @@ aside .menubar a{
 aside .menubar span{
     margin: 1rem;
 }
-.alinhamento-rodape{
-    display: flex;
-    float:inline-end;
-    align-items: center;
+
+.footer{
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
 }
 
-aside .footer{
-    
+aside .rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+aside .menu .nome-rodape{
+    display: flex;
+    gap: 0.5rem;
+    float: left;
+    margin-top: 2rem;
+}
+
+aside .menu .logo-rodape{
+    display: flex;
+    gap: 0.5rem;
+    float: left;
+    margin-top: 2rem;
+    float: left;
+}
+
+aside .menu .logo-rodape{
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+
+aside .rodape .social-rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    gap: 1rem;
+    position: relative;
+    margin: 2rem;
+    float: right!important;
+}
+
+aside .rodape a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
