@@ -106,3 +106,13 @@ aside .menubar a{
 aside .menubar span{
     margin: 1rem;
 }
+.alinhamento-rodape{
+    display: flex;
+    top: 3006px;
+    left: 789px;
+    align-items: center;
+}
+.texto-rodape{
+    top: 3006px;
+    left: 789px;
+}
