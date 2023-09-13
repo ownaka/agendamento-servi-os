@@ -121,12 +121,14 @@ aside .rodape{
     margin-top: 1.5rem;
 }
 
-aside .menu .nome-rodape{
+aside .rodape .nome-rodape{
     display: flex;
     gap: 0.5rem;
     float: left;
     margin-top: 2rem;
 }
+
+aside .rodape .nome-rodape
 
 aside .menu .logo-rodape{
     display: flex;
@@ -153,6 +155,11 @@ aside .rodape .social-rodape {
     position: relative;
     margin: 2rem;
     float: right!important;
+}
+
+aside .rodape .social-rodape img{
+    width: 2rem;
+    height: 2rem;
 }
 
 aside .rodape a{
