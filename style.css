@@ -18,7 +18,7 @@ body{
     height: 100vh;
     font-family: 'Roboto',sans-serif;
     color: white;
-    background-color: #fad6aa;
+    background-color: #FFF8ED;
 }
 
 a{
@@ -130,7 +130,15 @@ aside .rodape .nome-rodape{
 
 aside .rodape .nome-rodape
 
-aside .menu .logo-rodape{
+aside .rodape .nome-rodape .p1{
+    color: #fad6aa;
+}
+
+aside .rodape .nome-rodape .p2{
+    color: #AC4430;
+}
+
+aside .rodape .logo-rodape{
     display: flex;
     gap: 0.5rem;
     float: left;
@@ -138,12 +146,6 @@ aside .menu .logo-rodape{
     float: left;
 }
 
-aside .menu .logo-rodape{
-    display: flex;
-    gap: 0.5rem;
-    margin-left: 5rem;
-    margin-top: 2rem;
-}
 
 
 aside .rodape .social-rodape {
@@ -166,4 +168,32 @@ aside .rodape a{
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+
+aside .logo-rodape .dev-by{
+    color: #B76336;
+    
+}
+
+.center{
+    
+}
+
+aside2{
+    width: 90vw;
+}
+
+.missao{
+    align-items: center;
+    position: absolute;
+}
+
+.missao .cor-titulo{
+    color: #AC4430;
+    font-size: 2rem;
+}
+
+.missao .cor-texto{
+    color: #B76336;
+    font-size: 1.5rem;
 }
