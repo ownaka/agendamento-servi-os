@@ -17,12 +17,12 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto',sans-serif;
-    color: white;
+    color: #AC4430;
     background-color: #FFF8ED;
 }
 
 a{
-    color: white;
+    color: #AC4430;
 }
 
 image{
@@ -51,11 +51,11 @@ small{
 }
 
 p{
-    color: white;
+    color: #AC4430;
 }
 
 b{
-    color: white;
+    color: #AC4430;
 }
 
 .container{
