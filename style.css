@@ -170,19 +170,28 @@ aside .rodape a{
 
 aside .logo-rodape .dev-by{
     color: #B76336;
-
+    
 }
 
-aside .missao{
-
+.center{
+    
 }
 
-aside .missao .cor-titulo{
+aside2{
+    width: 90vw;
+}
+
+.missao{
+    align-items: center;
+    position: absolute;
+}
+
+.missao .cor-titulo{
     color: #AC4430;
-
+    font-size: 2rem;
 }
 
-aside .missao .cor-texto{
+.missao .cor-texto{
     color: #B76336;
-
+    font-size: 1.5rem;
 }
