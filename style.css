@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -9,79 +9,93 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-html{
+
+:root {
+    --preto: #434343;
+    --branco: #FFFCFF;
+    --tomate: #FE654F;
+    --azul-escuro: #6D98BA;
+    --azul-claro: #BFE1f3;
+    --alt-azul-claro: #ACC4D7;
+    ;
+    --alt-azul-escuro: #90B1CB;
+}
+
+html {
     font-size: 14px;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
-    font-family: 'Roboto',sans-serif;
-    color: #AC4430;
-    background-color: #FFF8ED;
+    font-family: 'Roboto', sans-serif;
+    color: var(--preto);
+    background-color: var(--branco);
 }
 
-a{
-    color: #AC4430;
+a {
+    color: var(--preto);
 }
 
-image{
+image {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
-h1{
+h1 {
     font-weight: 800;
     font-size: 1.8rem;
 }
 
-h2{
+h2 {
     font-weight: 600;
     font-size: 1.4rem;
 }
 
-h3{
+h3 {
     font-weight: 100;
     font-size: 0.87rem;
 }
 
-small{
+small {
     font-size: 0.76rem;
 }
 
-p{
-    color: #AC4430;
+p {
+    color: var(--preto);
 }
 
-b{
-    color: #AC4430;
+b {
+    color: var(--preto);
 }
 
-.container{
+.container {
     display: grid;
     width: 96%;
     margin: 0 auto;
     gap: 1.8rem;
 }
-aside{
+
+aside {
     width: 96vw;
 }
 
-aside.menu{
+aside.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 1.5rem;
 }
-aside .menu .logo{
+
+aside .menu .logo {
     display: flex;
     gap: 0.5rem;
     float: left;
     margin-top: 2rem;
 }
 
-aside .menu .logo img{
+aside .menu .logo img {
     width: 2rem;
     height: 2rem;
 }
@@ -94,51 +108,49 @@ aside .menubar {
     gap: 1rem;
     position: relative;
     margin: 2rem;
-    float: right!important;
+    float: right !important;
 }
 
-aside .menubar a{
+aside .menubar a {
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-aside .menubar span{
+aside .menubar span {
     margin: 1rem;
 }
 
-.footer{
+.footer {
     display: grid;
     width: 96%;
     margin: 0 auto;
     gap: 1.8rem;
 }
 
-aside .rodape{
+aside .rodape {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 1.5rem;
 }
 
-aside .rodape .nome-rodape{
+aside .rodape .nome-rodape {
     display: flex;
     gap: 0.5rem;
     float: left;
     margin-top: 2rem;
 }
 
-aside .rodape .nome-rodape
-
-aside .rodape .nome-rodape .p1{
-    color: #fad6aa;
+aside .rodape .nome-rodape aside .rodape .nome-rodape .p1 {
+    color: var(--preto);
 }
 
-aside .rodape .nome-rodape .p2{
-    color: #AC4430;
+aside .rodape .nome-rodape .l2 {
+    color: var(--tomate);
 }
 
-aside .rodape .logo-rodape{
+aside .rodape .logo-rodape {
     display: flex;
     gap: 0.5rem;
     float: left;
@@ -156,44 +168,42 @@ aside .rodape .social-rodape {
     gap: 1rem;
     position: relative;
     margin: 2rem;
-    float: right!important;
+    float: right !important;
 }
 
-aside .rodape .social-rodape img{
+aside .rodape .social-rodape img {
     width: 2rem;
     height: 2rem;
 }
 
-aside .rodape a{
+aside .rodape a {
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-aside .logo-rodape .dev-by{
+aside .logo-rodape .dev-by {
     color: #B76336;
-    
+
 }
 
-.center{
-    
-}
+.center {}
 
-aside2{
+aside2 {
     width: 90vw;
 }
 
-.missao{
+.missao {
     align-items: center;
     position: absolute;
 }
 
-.missao .cor-titulo{
+.missao .cor-titulo {
     color: #AC4430;
     font-size: 2rem;
 }
 
-.missao .cor-texto{
+.missao .cor-texto {
     color: #B76336;
     font-size: 1.5rem;
 }
