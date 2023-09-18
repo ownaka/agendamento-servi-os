@@ -19,6 +19,7 @@
     --alt-azul-claro: #ACC4D7;
     ;
     --alt-azul-escuro: #90B1CB;
+    --Marrom: #434343; 
 }
 
 html {
@@ -31,6 +32,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
     background-color: var(--branco);
+    
 }
 
 a {
@@ -75,6 +77,7 @@ b {
     width: 96%;
     margin: 0 auto;
     gap: 1.8rem;
+    font-family: sans-serif;
 }
 
 aside {
@@ -86,6 +89,7 @@ aside.menu {
     align-items: center;
     justify-content: space-between;
     margin-top: 1.5rem;
+    
 }
 
 aside .menu .logo {
@@ -93,6 +97,7 @@ aside .menu .logo {
     gap: 0.5rem;
     float: left;
     margin-top: 2rem;
+    margin-left: 8.48rem;
 }
 
 aside .menu .logo img {
@@ -100,15 +105,34 @@ aside .menu .logo img {
     height: 2rem;
 }
 
+aside .menu .logo .p-projeto{
+    color: var(--Marrom);
+     
+}
+
+aside .menu .logo .p-lares{
+    color: var(--azul-escuro);
+
+}
+
+aside .menu .logo .fonte1{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 aside .menubar {
     display: flex;
     align-items: center;
     flex-direction: row;
     height: 2rem;
-    gap: 1rem;
+    gap: 2rem;
     position: relative;
     margin: 2rem;
     float: right !important;
+    margin-right: 15.31rem ;
 }
 
 aside .menubar a {
@@ -120,6 +144,130 @@ aside .menubar a {
 aside .menubar span {
     margin: 1rem;
 }
+
+aside .menubar .fonte2{
+    color: var(--Marrom);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+aside .sessao1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    gap: 10rem;
+    font-family: sans-serif;
+    
+    
+   
+}
+
+
+    
+
+ aside .sessao1  .header1{
+    color: var(--Marrom, #434343);
+    
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    
+}
+
+ aside .sessao1  .lar1{
+    color: var(--Azul-escuro, #6D98BA);
+    
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    
+}
+
+aside .sessao1 .texto-do-header1{
+    color: var(--Marrom, #434343);
+   
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+}
+
+
+aside .sessao2 .chamada2{
+    align-items: center;
+    width: 28.125rem;
+    height: 22.625rem;
+    flex-shrink: 0;
+    
+}
+.cor-de-fundo-secundaria {
+    background-color: var(--azul-escuro); 
+    width: 110%;
+    height: 33.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    gap: 10rem;
+    font-family: sans-serif;
+    
+    
+}
+
+aside .sessao2 .texto-da-chamada2{
+   
+    color: var(--branco);
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     display: grid;
