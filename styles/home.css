@@ -205,38 +205,124 @@ aside .sessao1 .texto-do-header1{
 }
 
 
-aside .sessao2 .chamada2{
-    align-items: center;
-    width: 28.125rem;
-    height: 22.625rem;
-    flex-shrink: 0;
-    
-}
+
 .cor-de-fundo-secundaria {
     background-color: var(--azul-escuro); 
-    width: 110%;
     height: 33.5rem;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content:center;
     gap: 10rem;
     font-family: sans-serif;
     
     
 }
 
-aside .sessao2 .texto-da-chamada2{
+ .sessao2 .texto1-da-chamada2{
    
     color: var(--branco);
-    font-family: Poppins;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-family: sans-serif;
+    margin-top: 8rem;
     
 }
+.sessao2 .texto2-da-chamada2{
+   
+    color: var(--branco);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    
+    
+    
+}
+
+.sessao2 .p1-sessao2{
+    color: var(--branco);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-top: 6.44rem;
+}
+.sessao2 .p2-sessao2{
+    color: var(--branco);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem;
+    
+
+    
+}
+
+.sessao2 .p3-sessao2{
+    color: var(--branco);  
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem;
+    
+
+    
+}
+
+.sessao2{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+ .imagem-quebra .quebra{
+    margin-top: 6.6rem;
+    height: 31rem;
+    
+    
+
+ }
+ 
+
+ .sessao3{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    font-family: sans-serif;
+ }
+ 
+  .sessao3 .cor-tituloMissao{
+    color: var(--azul-escuro);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5rem;
+    
+    
+
+ }
+ .sessao3 .cor-textoMissao1{
+    color: var(--Marrom);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+ }
+ .sessao3 .cor-textoMissao2{
+    color: var(--Marrom);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+ }
+ 
+ 
+ 
+    
 
 
 
@@ -335,7 +421,7 @@ aside .logo-rodape .dev-by {
 
 }
 
-.center {}
+
 
 aside2 {
     width: 90vw;
