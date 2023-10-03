@@ -289,6 +289,7 @@ aside .sessao1 .texto-do-header1{
     flex-direction: row;
     justify-content:center;
     font-family: sans-serif;
+    margin-top: 8.25rem;
  }
  
   .sessao3 .cor-tituloMissao{
@@ -319,28 +320,66 @@ aside .sessao1 .texto-do-header1{
     line-height: normal;
     
  }
+ .sessao3 .imagem-crianca{
+    margin-left: 4.38rem;
+ }
+ 
+ .sessao4{
+    display: grid;
+    align-items: center;
+    
+    
+    
+    
+ }
+ .sessao4 .cor-contato{
+    color: var(--azul-escuro);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-direction: center;
+    flex-direction: row;
+    
+    
+   
+ }
+ 
+ .sessao4 .p-nome{
+    color: var(--azul-escuro);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+ }
+ .sessao4 .p-email{
+    color: var(--azul-escuro);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+ }
+
+ .sessao4 .p-assunto{
+    color: var(--azul-escuro);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+ }
+
+ .sessao4 .b-enviar{
+    color: var(--azul-escuro);
+
+ }
  
  
  
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
