@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #434343;
+    --branco: #FFFCFF;
+    --tomate: #FE654F;
+    --azul-escuro: #6D98BA;
+    --azul-claro: #BFE1f3;
+    --alt-azul-claro: #ACC4D7;
+    ;
+    --alt-azul-escuro: #90B1CB;
+    --Marrom: #434343; 
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: var(--preto);
+    background-color: var(--branco);   
+}
+
+a {
+    color: var(--preto);
+}
+
+image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 0.87rem;
+}
+
+small {
+    font-size: 0.76rem;
+}
+
+p {
+    color: var(--preto);
+}
+
+b {
+    color: var(--preto);
+}
+
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    font-family: sans-serif;
+}
+
+aside {
+    width: 96vw;
+}
+
+aside.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    
+}
+
+aside .menu .logo {
+    display: flex;
+    gap: 0.5rem;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 8.48rem;
+}
+
+aside .menu .logo img {
+    width: 2rem;
+    height: 2rem;
+}
+
+aside .menu .logo {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+aside .menubar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    gap: 2rem;
+    position: relative;
+    margin: 2rem;
+    float: right !important;
+    margin-right: 15.31rem ;
+}
+
+aside .menubar a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.sessao1{
+    display: grid;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    margin: 17rem;
+    gap: 10rem;
+    font-family: sans-serif;   
+    
+}
+
+.titulo-projeto {
+    color: var(--alt-azul-escuro);
+}
+
+.titulo-necessidade-doadores {
+    color: var(--alt-azul-escuro);
+}
+
+.sessao1 .texto-projeto {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+
+.sessao1 .texto-necessidade-doadores {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+   
+}
