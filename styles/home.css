@@ -338,7 +338,7 @@ aside .sessao1 .texto-do-header1{
  .sessao4{
     display: flex;
     margin-left: 16.25rem;
-   margin-right: 22.12rem;
+    margin-right: 22.12rem;
       
  }
  
@@ -352,13 +352,19 @@ aside .sessao1 .texto-do-header1{
     font-weight: 700;
     line-height: normal;
     flex-direction: center;
-    flex-direction: row;
+    
     margin-left: 50.13rem;
     margin-top: 13rem;
     margin-bottom: 4.56rem;
      
  }
- 
+  
+
+ .sessao4 .campo1{
+    margin-top: 4.56rem;
+    
+ }
+
  .sessao4 .p-nome{
     color: var(--azul-escuro);
     font-size: 1.5rem;
@@ -368,9 +374,11 @@ aside .sessao1 .texto-do-header1{
     align-self:flex-end;
     width: 34.125rem;
     height: 5.625rem;
-
-
+    
  }
+
+ 
+
  .sessao4 .p-email{
     color: var(--azul-escuro);
     font-size: 1.5rem;
@@ -411,6 +419,11 @@ aside .sessao1 .texto-do-header1{
     border-radius: 1rem; 
     margin-left:23.62rem;
     margin-top: 3.25rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
     
  }
 
@@ -423,15 +436,19 @@ aside .sessao1 .texto-do-header1{
     width: 34.125rem;
     height: 5.625rem;
     border-radius: 1.5625rem;
-
- }
+    color: var(--preto);
+    background-color: #F3F3F3;
+    line-height: normal;
+   
+}
 
  .sessao4 .caixa-assunto{
-    width: 34.125rem;
+    width: 34.12rem;
     height: 14rem;
     border-radius: 1.5625rem;
-    
-    
+    color: var(--preto);
+    background-color: #F3F3F3;
+   
  }
 
 
