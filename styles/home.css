@@ -112,6 +112,7 @@ aside .menu .logo .p-projeto{
 
 aside .menu .logo .p-lares{
     color: var(--azul-escuro);
+    margin-left: 0.5rem;
 
 }
 
@@ -279,6 +280,7 @@ aside .sessao1 .texto-do-header1{
     height: 31rem;
     
     
+    
 
  }
  
@@ -289,6 +291,7 @@ aside .sessao1 .texto-do-header1{
     flex-direction: row;
     justify-content:center;
     font-family: sans-serif;
+    margin-top: 8.25rem;
  }
  
   .sessao3 .cor-tituloMissao{
@@ -319,40 +322,134 @@ aside .sessao1 .texto-do-header1{
     line-height: normal;
     
  }
- 
- 
- 
+ .sessao3 .imagem-crianca{
+    margin-left: 4.38rem;
+    width: 34.66781rem;
+    height: 29.93663rem;
+    transform: rotate(-15deg);
+    flex-shrink: 0;
     
+ }
 
 
 
 
+ 
+ .sessao4{
+    display: flex;
+    margin-left: 16.25rem;
+    margin-right: 22.12rem;
+      
+ }
+ 
 
 
 
+.cor-contato{
+    color: var(--azul-escuro);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-direction: center;
+    
+    margin-left: 50.13rem;
+    margin-top: 13rem;
+    margin-bottom: 4.56rem;
+     
+ }
+  
 
+ .sessao4 .campo1{
+    margin-top: 4.56rem;
+    
+ }
 
+ .sessao4 .p-nome{
+    color: var(--azul-escuro);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self:flex-end;
+    width: 34.125rem;
+    height: 5.625rem;
+    
+ }
 
+ 
 
+ .sessao4 .p-email{
+    color: var(--azul-escuro);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 34.125rem;
+    height: 5.625rem;
 
+ }
 
+ .sessao4 .p-assunto{
+    color: var(--azul-escuro);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 34.125rem;
+    height: 14rem;
 
+ }
 
+ 
+ .sessao4 .imagem-contato{
+    margin-right: 11.37rem;
+    width: 39.875rem;
+    height: 39.875rem;
+    
+    
+ }
+ 
+ .sessao4 .p-contato{
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+    font-family: sans-serif;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem; 
+    margin-left:23.62rem;
+    margin-top: 3.25rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    
+ }
 
+ .sessao4 .b-enviar{
+    flex-direction: left;
+   
+ }
+ 
+ .sessao4 .caixa{
+    width: 34.125rem;
+    height: 5.625rem;
+    border-radius: 1.5625rem;
+    color: var(--preto);
+    background-color: #F3F3F3;
+    line-height: normal;
+   
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .sessao4 .caixa-assunto{
+    width: 34.12rem;
+    height: 14rem;
+    border-radius: 1.5625rem;
+    color: var(--preto);
+    background-color: #F3F3F3;
+   
+ }
 
 
 .footer {
@@ -380,16 +477,15 @@ aside .rodape .nome-rodape aside .rodape .nome-rodape .p1 {
     color: var(--preto);
 }
 
-aside .rodape .nome-rodape .l2 {
-    color: var(--tomate);
-}
 
 aside .rodape .logo-rodape {
     display: flex;
     gap: 0.5rem;
     float: left;
-    margin-top: 2rem;
+    margin-top: 5.56rem;
     float: left;
+    
+
 }
 
 
@@ -403,6 +499,8 @@ aside .rodape .social-rodape {
     position: relative;
     margin: 2rem;
     float: right !important;
+    margin-right: 15.25rem;
+    margin-bottom: 8rem;
 }
 
 aside .rodape .social-rodape img {
@@ -417,11 +515,47 @@ aside .rodape a {
 }
 
 aside .logo-rodape .dev-by {
-    color: #B76336;
+    color: var(--Marrom);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: sans-serif;
+    
 
 }
 
+aside  .dev-yb{
+    color: var(--Marrom);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: sans-serif;
+    margin-left: 0.4rem;
+}
+aside .nome-rodape{
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 15.44rem;
+    margin-bottom: 5.94rem;
+    
+    
+    
+}
 
+aside .nome-rodape .p-projeto2{
+    color: var(--Marrom);
+    
+}
+
+aside .nome-rodape .p-lares2{
+    color: var(--azul-escuro);
+    margin-left: 0.5rem;
+}
 
 aside2 {
     width: 90vw;
