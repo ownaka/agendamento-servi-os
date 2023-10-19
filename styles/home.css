@@ -27,8 +27,8 @@ html {
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 98vh;
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
     background-color: var(--branco);
@@ -72,90 +72,6 @@ b {
     color: var(--preto);
 }
 
-.container {
-    display: grid;
-    width: 96%;
-    margin: 0 auto;
-    gap: 1.8rem;
-    font-family: sans-serif;
-}
-
-aside {
-    width: 96vw;
-}
-
-aside.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1.5rem;
-    
-}
-
-aside .menu .logo {
-    display: flex;
-    gap: 0.5rem;
-    float: left;
-    margin-top: 2rem;
-    margin-left: 8.48rem;
-}
-
-aside .menu .logo img {
-    width: 2rem;
-    height: 2rem;
-}
-
-aside .menu .logo .p-projeto{
-    color: var(--Marrom);
-     
-}
-
-aside .menu .logo .p-lares{
-    color: var(--azul-escuro);
-    margin-left: 0.5rem;
-
-}
-
-aside .menu .logo .fonte1{
-    font-family: sans-serif;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-aside .menubar {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    height: 2rem;
-    gap: 2rem;
-    position: relative;
-    margin: 2rem;
-    float: right !important;
-    margin-right: 15.31rem ;
-}
-
-aside .menubar a {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-aside .menubar span {
-    margin: 1rem;
-}
-
-aside .menubar .fonte2{
-    color: var(--Marrom);
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-}
 
 aside .sessao1{
     display: flex;
