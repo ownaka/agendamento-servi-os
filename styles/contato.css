@@ -17,9 +17,9 @@
     --azul-escuro: #6D98BA;
     --azul-claro: #BFE1f3;
     --alt-azul-claro: #ACC4D7;
-    ;
     --alt-azul-escuro: #90B1CB;
     --Marrom: #434343; 
+    --cinza-claro:#F3F3F3;
 }
 
 html {
@@ -70,4 +70,159 @@ p {
 
 b {
     color: var(--preto);
+}
+
+.sessao1{
+   font-family: sans-serif;
+   
+}
+
+.sessao1 .fonte1{
+    
+    margin-left: 16.62rem;
+    margin-top: 6.81rem;
+    
+    
+}
+
+.sessao1 .titulo{
+    font-size: 4rem;
+    font-weight: 700;
+    color:var(--azul-escuro);
+    
+}
+
+.fonte1 .texto{
+    margin-top:3.06rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+}
+
+.imagem-contato{
+    display: flex;
+    align-items: center;
+    
+}
+
+.imagem-contato img{
+    margin-left: 12.44rem;
+    margin-top: 0.37rem;
+    margin-right: 14.19rem;
+}
+
+.sessao4{
+    display: flex;
+    align-items: center;
+    
+}
+.formulario .titulof{
+    margin-left: 0.75rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:var(--azul-escuro);
+    
+}
+.formulario .caixa{
+    width: 23rem;
+    height: 2rem; 
+    font-size: 1rem;
+    border-radius: 1.5625rem;
+    color: var(--preto);
+    background-color: var(--cinza-claro);
+    text-align: center;
+    
+}
+
+.formulario .caixa2{
+    width: 23rem;
+    height: 14rem;
+    font-size: 1.5rem;
+    color: var(--preto);
+    background-color:var(--cinza-claro);
+    border-radius: 1.5625rem;
+
+}
+
+.formulario .botaov{
+    margin-left: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    background-color:var(--azul-escuro);
+    color:var(--branco);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 13.5rem;
+    margin-top: 2.37rem;
+    
+
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15rem;
+}
+
+.ProjetoLares{
+    margin-left:11rem;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 5.94rem;
+    
+}
+.ProjetoLares .p1{
+    color: var(--preto);
+    margin-left: 0.5rem;
+}
+
+.ProjetoLares .l1{
+    color: var(--azul-escuro);
+    margin-left: 0.5rem;
+}
+
+.menubar2 {
+    margin-right: 10.5rem;
+    display: flex;
+    align-items: center;
+    height: 2.81519rem;
+    gap: 2rem;
+    position: relative;
+    float: right ;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4.5rem;
+}
+
+
+
+.dev-by{
+    
+
+    color: var(--Marrom);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: sans-serif;
+    margin-left: 0.4rem;
+}
+
+ .dev-by2{
+    caret-color: var(--Marrom);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: sans-serif;
+    margin-left: 0.4rem;
 }

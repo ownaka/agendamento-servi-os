@@ -49,22 +49,28 @@
     <aside>
     <div class="sessao1">
         <div class="fonte1">
-            <h1>Nosso Contato</h1>
-            <h3>Não perca mais tempo e faça parte dessa imensa rede de apoio.</h3>
+            <h1 class="titulo">Nosso Contato</h1>
+            <h3 class="texto">Não perca mais tempo e faça parte dessa imensa rede de apoio.</h3>
         </div>
-        <div class="imagem-contato">
-            <img src="../images/Charity-rafiki 1.png" img="imagem-sessao1">
-        </div>
+        >
         <div class="sessao4">
-            <form name="formulario-contato">
-                Nome  <br><input type="text" name="Nome-contato" size="90"><p>
+            <div class="imagem-contato">
+                <img src="../images/Charity-rafiki 1.png" img="imagem-sessao1">
+            </div>
+                <div class="formulario">
+                    <form name="formulario-contato">
+                     <label class="titulof"> Nome</label> 
+                        <br><input class="caixa" type="text" name="Nome-contato" size="90"><p>
 
-                Email  <br><input type="text" name="Email-contato" size="90"><p>
+                        <label class="titulof"> Email</label> 
+                        <br><input class="caixa" type="text" name="Email-contato" size="90"><p>
 
-                Assunto  <br><input type="text" name="Assuunto-contato" size="90"><p>
+                        <label class="titulof">Assunto</label> 
+                        <br><textarea class="caixa2" type="text" name="Assuunto-contato" size="90"></textarea><p>
 
-                    <input type="submit" name="submit-contato" value="Enviar">
-            </form>
+                        <input class="botaov" type="submit" name="submit-contato" value="Enviar">
+                    </form>
+                </div>
         </div>
     </div>
     </aside>
@@ -72,28 +78,44 @@
  <!-- Incio do rodapé -->
     <div class="footer">
         <aside>
-        <div class="rodape">
-            <div class="nome-rodape">
-                <a>
-                    <div class="ProjetoLares"><span class="p1">Projeto</span><span class="l1"> LARES</span>
+            <div class="rodape">
+                <div class="nome-rodape">
+                    <a>
+                        <div class="ProjetoLares">
+                            <span class="p1">Projeto</span><span class="l1"> LARES</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="logo-rodape">
+                    <a>
+                        
+                        <span class="dev-by">criado e desenvolvido</span><span class="dev-by2">ABCD</span>
+                    </a>
+                </div>
+                <div class="social-rodape">
+                    <div class="menubar2">
+                        <a href="home.html">
+                            <h3 >HOME</h3>
+                        </a>
+                        <a href="sobre.html">
+                            <h3>SOBRE</h3>
+                        </a>
+                        <a href="lares.html">
+                            <h3>LARES</h3>
+                        </a>
+                        <a href="contato.html">
+                            <h3>CONTATO</h3>
+                        </a>
+                            <!-- <a href="entrar.html">
+                                <button class="font2">entrar</button>
+                            </a>
+                            <a href="cadastro.html">
+                                <button class="fonte2">cadastro</button>
+                            </a>-->
+                            
                     </div>
-                </a>
+                </div>
             </div>
-            <div class="logo-rodape">
-                <a>
-                    <img src="images/home (4) 2.png">
-                    <span class="dev-by">criado e desenvolvido ABCD</span>
-                </a>
-            </div>
-            <div class="social-rodape">
-                <a href="https://www.instagram.com">
-                    <img src="images/icones/instagram icon.png">
-                </a>
-                <a href="https://www.facebook.com">
-                    <img src="images/icones/facebook icon.png">
-                </a>
-            </div>
-        </div>
         </aside>
     </div>
 </body>

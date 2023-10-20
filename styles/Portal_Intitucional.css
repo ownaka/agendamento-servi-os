@@ -160,6 +160,7 @@ aside .menubar {
 }
 
 .login .titulo_login{
+    margin-left: 0.75rem;
     color:var(--azul-escuro);
     margin-top: 7.87rem;
     align-self:flex-end ;
@@ -169,6 +170,7 @@ aside .menubar {
 }
 
 .login .titulo_senha{
+    margin-left: 0.75rem;
     color:var(--azul-escuro);
     font-size: 1.4rem;
     font-weight: 700;
