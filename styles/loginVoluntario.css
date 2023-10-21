@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #434343;
+    --branco: #FFFCFF;
+    --cinza-claro: #F3F3F3;
+    --tomate: #FE654F;
+    --azul-escuro: #6D98BA;
+    --azul-claro: #BFE1f3;
+    --alt-azul-claro: #ACC4D7;
+    --alt-azul-escuro: #90B1CB;
+    --Marrom: #434343; 
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    width: 98vw;
+    height: 98vh;
+    font-family: 'Roboto', sans-serif;
+    color: var(--preto);
+    background-color: var(--branco);
+    
+}
+
+a {
+    color: var(--preto);
+}
+
+image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 0.87rem;
+}
+
+small {
+    font-size: 0.76rem;
+}
+
+p {
+    color: var(--preto);
+}
+
+b {
+    color: var(--preto);
+}
+
+.containerLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 10rem;
+    font-family: sans-serif;
+}
+
+
+
+.loginForm{
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.loginForm .portalV{
+    color:var(--preto);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+}
+
+.loginForm .portalVoluntario{
+    color: var(--azul-escuro);
+}
+
+.loginForm .paragrafoPortal{
+    color: var(--preto);
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+.loginForm .caixaForm{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.form{
+    margin: 1.5rem;
+}
+
+.form .loginText{
+    color: var(--azul-escuro);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+ 
+.loginBox{ 
+    background-color: var(--cinza-claro);
+    height: 3rem;
+    width: 24rem;
+    border-radius: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--preto);
+}
+
+.opcoesLogin .resetSenha{
+    justify-content: left;
+    margin-right: 3rem;
+}
+
+.opcoesLogin .instituicaoPortal{
+    justify-content: right;
+}
+
+.loginBotaoCriar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--azul-escuro);
+    background-color: var(--azul-claro);
+    margin: 2rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 9rem;
+}
+
+.loginBotaoEnviar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+    margin: 2rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 9rem;
+}

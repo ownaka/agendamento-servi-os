@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-        <link rel="stylesheet" href="../styles/loginUser.css">
+        <link rel="stylesheet" href="../styles/loginInstituicao.css">
         <link rel="stylesheet" href="../styles/menu.css">
         <link rel="stylesheet" href="../styles/rodape.css">
         <title>Projeto Lares</title>
@@ -34,37 +34,40 @@
                         <h3 class="fonte2">CONTATO</h3>
                     </a>
                     <a href="loginVoluntario.html">
-                        <button class="fonte2">Entrar</button>
+                        <button class="loginBMenu">Entrar</button>
                     </a>
                 </div>
             </div>
         </aside>
     </div>
     <!--Formulário de Login-->
-    <div class="container">
+    <div class="containerLogin">
         <div class="loginForm">
-                <h1 class="portalV">Portal da Instituicional</h1>
-                <p class="paragrafroPortal">Não perca tempo e faça já parte dessa imensa rede de apoio</p>
-                <div class="form1">
-                    <h3 class="loginText">CNPJ</h3>
-                    <input class="loginBox" type="text">
+                <h1 class="portalV">Portal <span class="portalI">Institucional</span></h1>
+                <p class="paragrafoPortal">Não perca tempo e faça já parte dessa imensa rede de apoio</p>
+                <div class="caixaForm">
+                    <div class="form">
+                        <h3 class="loginText">CNPF</h3>
+                        <input class="loginBox" type="text" placeholder=" ">
+                    </div>
+                    <div class="form">
+                        <h3 class="loginText">Senha</h3>
+                        <input class="loginBox" type="password" placeholder=" ">    
+                    </div>
+                    <div class="opcoesLogin">
+                        <a href="#" class="resetSenha">Esqueci minha senha</a>
+                        <a href="loginVoluntario.html" class="instituicaoPortal">Sou um Voluntário</a>
+                    </div>
+                <div class="selecBotao">
+                    <a href="cadastroVoluntario.html">
+                        <button class="loginBotaoCriar" href="cadastroVoluntario.html" >Cadastrar Instituição</button>
+                    </a>
+                    <a href="#">
+                    <button class="loginBotaoEnviar" type="submit" >Entrar</button>
+                    </a>
                 </div>
-                <div class="form2">
-                    <h3 class="loginText">Senha</h3>
-                    <input class="loginBox" type="text">    
                 </div>
-                <div class="opcoesLogin">
-                    <a href="#" class="resetSenha">Esqueci minha senha</a>
-                    <a href="loginVoluntario.html" class="instituicaoPortal">Sou um Voluntário</a>
-                </div>
-            <div class="botao">
-                <a href="cadastroVoluntario.html">
-                    <button class="criarConta" href="cadastroVoluntario.html" >Criar conta</button>
-                </a>
-                <a href="#">
-                <button class="loginBotao" type="submit" >Entrar</button>
-                </a>
-            </div>
+                
         </div>
     </div>
     <!-- Incio do rodapé -->

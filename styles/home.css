@@ -24,6 +24,7 @@
 
 html {
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;   
 }
 
 body {
@@ -79,9 +80,6 @@ aside .sessao1{
     flex-direction: row;
     justify-content:center;
     gap: 10rem;
-    font-family: sans-serif;
-    
-    
    
 }
 
@@ -89,19 +87,15 @@ aside .sessao1{
     
 
  aside .sessao1  .header1{
-    color: var(--Marrom, #434343);
-    
-    font-size: 4rem;
+    color: var(--preto);
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
-    
 }
 
  aside .sessao1  .lar1{
     color: var(--Azul-escuro, #6D98BA);
-    
     font-size: 4rem;
     font-style: normal;
     font-weight: 700;
@@ -127,13 +121,9 @@ aside .sessao1 .texto-do-header1{
     background-color: var(--azul-escuro); 
     height: 33.5rem;
     gap: 10rem;
-    font-family: sans-serif;
-    
-    
 }
 
  .sessao2 .texto1-da-chamada2{
-   
     color: var(--branco);
     font-size: 2rem;
     font-style: normal;
@@ -143,7 +133,6 @@ aside .sessao1 .texto-do-header1{
     
 }
 .sessao2 .texto2-da-chamada2{
-   
     color: var(--branco);
     font-size: 2rem;
     font-style: normal;
@@ -168,10 +157,7 @@ aside .sessao1 .texto-do-header1{
     font-size: 4rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 6rem;
-    
-
-    
+    line-height: 6rem;  
 }
 
 .sessao2 .p3-sessao2{
@@ -180,24 +166,16 @@ aside .sessao1 .texto-do-header1{
     font-style: normal;
     font-weight: 700;
     line-height: 6rem;
-    
-
-    
 }
 
 .sessao2{
     display: flex;
     justify-content: space-evenly;
-    font-family: sans-serif;
 }
 
  .imagem-quebra .quebra{
     margin-top: 6.6rem;
     height: 31rem;
-    
-    
-    
-
  }
  
 
@@ -206,7 +184,6 @@ aside .sessao1 .texto-do-header1{
     align-items: center;
     flex-direction: row;
     justify-content:center;
-    font-family: sans-serif;
     margin-top: 8.25rem;
  }
  
@@ -436,9 +413,6 @@ aside .logo-rodape .dev-by {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-family: sans-serif;
-    
-
 }
 
 aside  .dev-yb{
@@ -447,11 +421,9 @@ aside  .dev-yb{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    font-family: sans-serif;
     margin-left: 0.4rem;
 }
 aside .nome-rodape{
-    font-family: sans-serif;
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
