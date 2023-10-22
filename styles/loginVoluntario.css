@@ -75,54 +75,45 @@ b {
 .containerLogin{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    gap: 10rem;
-    font-family: sans-serif;
+    padding-top: 10%;
+    place-items: center;
+    height: 90vh;
 }
 
-
-
-.loginForm{
-    padding-top: 8rem;
-    padding-bottom: 6rem;
-}
-
-.loginForm .portalV{
+.containerLogin .portalV{
     color:var(--preto);
     font-size: 3rem;
     margin-bottom: 1rem;
-    margin-left: 10%;
 }
 
-.loginForm .portalVoluntario{
+.containerLogin .portalI{
     color: var(--azul-escuro);
 }
 
-.loginForm .paragrafoPortal{
+
+.containerLogin .paragrafoPortal{
     color: var(--preto);
     font-size: 16px;
-    margin-left: 10%;
+
 }
 
-.loginForm .caixaForm{
+.loginForm{
+    padding-top: 40px;
+    padding-bottom: 6rem;
+    place-items: center;
+    text-align: center;
+}
+
+.centro-pag{
+    place-items: center;
+}
+
+.formulario-login{
+    margin: 1.5rem;
     display: flex;
     flex-direction: column;
-    padding: 3rem;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.form{
-    margin: 1.5rem;
-}
-
-.form .loginText{
-    color: var(--azul-escuro);
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    margin-left: 1rem;
+    gap: 25px;
+    place-items: center;
 }
 
  
@@ -138,27 +129,6 @@ b {
     color: var(--preto);
 }
 
-.opcoesLogin .resetSenha{
-    justify-content: left;
-    margin-right: 3rem;
-}
-
-.opcoesLogin .instituicaoPortal{
-    justify-content: right;
-}
-
-.loginBotaoCriar{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--azul-escuro);
-    background-color: var(--azul-claro);
-    margin: 2rem;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    width: 9rem;
-}
-
 .loginBotaoEnviar{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -170,3 +140,36 @@ b {
     padding: 1rem;
     width: 9rem;
 }
+
+.loginform .footer-card a{
+    text-decoration: underline;
+    color: var(--azul-escuro);
+}
+
+.footer-page{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background: var(--cinza-claro);
+}
+
+.footer-page .footer-left{
+    
+}
+
+.footer-page .footer-center{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer-page .footer-right{
+    
+}
+
+.footer-page .footer-right img{
+    width: 30px;
+    height: 30px;
+}
+

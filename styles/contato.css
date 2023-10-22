@@ -27,8 +27,6 @@ html {
 }
 
 body {
-    width: 98vw;
-    height: 98vh;
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
     background-color: var(--branco);
@@ -73,16 +71,12 @@ b {
 }
 
 .sessao1{
-   font-family: sans-serif;
+   font-family: 'Roboto', sans-serif;
    
 }
 
 .sessao1 .fonte1{
-    
-    margin-left: 16.62rem;
-    margin-top: 6.81rem;
-    
-    
+    margin-top: 70px;
 }
 
 .sessao1 .titulo{
@@ -98,8 +92,6 @@ b {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
-    
 }
 
 .imagem-contato{

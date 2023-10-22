@@ -1,13 +1,15 @@
 .container {
     display: grid;
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
     gap: 1.8rem;
     font-family: sans-serif;
+    position: fixed;
+    background-color: var(--branco);
 }
 
 aside {
-    width: 96vw;
+    width: 98vw;
 }
 
 aside.menu {
@@ -93,4 +95,31 @@ aside .menubar .loginBMenu{
     border-radius: 1.5rem;
     padding: 1rem;
     width: 9rem;
+}
+
+.footer-page{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background: var(--cinza-claro);
+}
+
+.footer-page .footer-left{
+    
+}
+
+.footer-page .footer-center{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer-page .footer-right{
+    
+}
+
+.footer-page .footer-right img{
+    width: 30px;
+    height: 30px;
 }
