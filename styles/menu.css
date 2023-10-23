@@ -103,3 +103,24 @@ aside .menubar .loginBMenu:hover{
     transform: scale(1.1);
     transition: all 0.25s;
 }
+
+.lares .conheca-nossos_lares .titulo-lares{
+    color: var(--azul-escuro);
+    margin-left: 13.63rem;
+    margin-top: 13.43rem;
+
+}
+
+.resumo-lares .texto-lares .titulo-lares{
+    color: var(--azul-escuro);
+    margin-left: 13.63rem;
+    
+}
+
+.resumo-lares .texto-lares .sub-texto{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1.63rem;
+    margin-left: 13.63rem;
+}
+
