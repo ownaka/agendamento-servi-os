@@ -1,8 +1,16 @@
 .footer-page{
+    font-size: 14px;
+    font-family: 'Roboto';
     justify-content: space-around;
     align-items: center;
-    background: var(--cinza-claro);
+    display: flex;
     height: 100px;
     margin: auto;
     bottom: 0;
+    color: var(--branco);
+    background-color: var(--branco);
+}
+
+.footer-page img{
+    width: 30px;
 }
