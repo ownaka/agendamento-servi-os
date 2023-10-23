@@ -100,4 +100,6 @@ aside .menubar .loginBMenu{
 
 aside .menubar .loginBMenu:hover{
     color: var(--tomate);
+    transform: scale(1.1);
+    transition: all 0.25s;
 }
