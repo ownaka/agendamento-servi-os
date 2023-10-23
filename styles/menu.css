@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     gap: 1.8rem;
     background-color:rgba(0,0,0,0.9);
@@ -33,7 +33,7 @@ aside .menu .logo img {
 }
 
 aside .menu .logo .p-projeto{
-    color: var(--Marrom);
+    color: var(--preto);
      
 }
 
@@ -93,31 +93,4 @@ aside .menubar .loginBMenu{
     border-radius: 1.5rem;
     padding: 1rem;
     width: 9rem;
-}
-
-.footer-page{
-    display: flex;
-    width: 100vw;
-    height: 80px;
-    justify-content: center;
-    align-items: center;
-    background: var(--cinza-claro);
-}
-
-.footer-page .footer-left{
-    
-}
-
-.footer-page .footer-center{
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.footer-page .footer-right{
-    
-}
-
-.footer-page .footer-right img{
-    width: 30px;
-    height: 30px;
 }

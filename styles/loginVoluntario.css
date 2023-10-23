@@ -27,11 +27,11 @@ html {
 }
 
 body {
-    width: 98vw;
-    height: 98vh;
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
     background-color: var(--branco);
+    background-image:url(../images/img_voluntario_login.jpg);
+    background-size:cover;
     
 }
 
@@ -75,7 +75,7 @@ b {
 .containerLogin{
     display: flex;
     flex-direction: column;
-    padding-top: 10%;
+    padding: 50px;
     place-items: center;
     height: 90vh;
 }
@@ -94,14 +94,14 @@ b {
 .containerLogin .paragrafoPortal{
     color: var(--preto);
     font-size: 16px;
-
 }
 
 .loginForm{
-    padding-top: 40px;
-    padding-bottom: 6rem;
+    padding: 40px;
+    border-radius: 30px;
     place-items: center;
     text-align: center;
+    background-color: var(--branco);
 }
 
 .centro-pag{
@@ -109,6 +109,7 @@ b {
 }
 
 .formulario-login{
+    padding-top: 20px;
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -125,7 +126,7 @@ b {
     padding-left: 1rem;
     padding-right: 1rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--preto);
 }
 
@@ -144,32 +145,5 @@ b {
 .loginform .footer-card a{
     text-decoration: underline;
     color: var(--azul-escuro);
-}
-
-.footer-page{
-    display: flex;
-    width: 100vw;
-    height: 80px;
-    justify-content: center;
-    align-items: center;
-    background: var(--cinza-claro);
-}
-
-.footer-page .footer-left{
-    
-}
-
-.footer-page .footer-center{
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.footer-page .footer-right{
-    
-}
-
-.footer-page .footer-right img{
-    width: 30px;
-    height: 30px;
 }
 
