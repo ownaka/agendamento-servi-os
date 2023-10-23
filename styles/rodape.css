@@ -1,26 +1,8 @@
 .footer-page{
-    display: flex;
-    width: 100vw;
-    height: 80px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: var(--cinza-claro);
-}
-
-.footer-page .footer-left{
-    
-}
-
-.footer-page .footer-center{
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.footer-page .footer-right{
-    
-}
-
-.footer-page .footer-right img{
-    width: 30px;
-    height: 30px;
+    height: 100px;
+    margin: auto;
+    bottom: 0;
 }

@@ -1,11 +1,10 @@
 .container {
     display: grid;
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
     gap: 1.8rem;
-    font-family: sans-serif;
-    position: fixed;
-    background-color: var(--branco);
+    background-color:rgba(0,0,0,0.9);
+    
 }
 
 aside {
@@ -25,7 +24,7 @@ aside .menu .logo {
     gap: 0.5rem;
     float: left;
     margin-top: 2rem;
-    margin-left: 8.48rem;
+    margin-left: 90px;
 }
 
 aside .menu .logo img {
@@ -45,7 +44,6 @@ aside .menu .logo .p-lares{
 }
 
 aside .menu .logo .fonte1{
-    font-family: sans-serif;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
@@ -75,7 +73,7 @@ aside .menubar span {
 }
 
 aside .menubar .fonte2{
-    color: var(--preto);
+    color: var(--branco);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-family: sans-serif;
