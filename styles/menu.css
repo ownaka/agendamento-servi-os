@@ -3,7 +3,8 @@
     width: 100%;
     margin: 0 auto;
     gap: 1.8rem;
-    background-color:rgba(0,0,0,0.9);
+    background-color:rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
     
 }
 
@@ -83,7 +84,7 @@ aside .menubar .fonte2{
 }
 
 aside .menubar .fonte2:hover{
-    color: var(--tomate);
+    color: var(--azul-escuro);
 }
 
 aside .menubar .loginBMenu{
@@ -92,14 +93,15 @@ aside .menubar .loginBMenu{
     font-size: 16px;
     color: var(--branco);
     background-color: var(--azul-escuro);
-    margin: 1rem;
+    
     border-radius: 1.5rem;
     padding: 1rem;
     width: 9rem;
 }
 
 aside .menubar .loginBMenu:hover{
-    color: var(--tomate);
+    color: var(--azul-escuro);
+    background: var(--branco);
     transform: scale(1.1);
     transition: all 0.25s;
     cursor: pointer;

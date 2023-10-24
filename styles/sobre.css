@@ -17,7 +17,6 @@
     --azul-escuro: #6D98BA;
     --azul-claro: #BFE1f3;
     --alt-azul-claro: #ACC4D7;
-    ;
     --alt-azul-escuro: #90B1CB;
     --Marrom: #434343; 
 }
@@ -73,31 +72,37 @@ b {
 
 .sessao1 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     gap: 5rem;
     padding: 10rem;
+    align-items: center;
 }
 
 .sessao1 .titulo-projeto {
     color: var(--Azul-escuro, #6D98BA);
-    font-size: 4rem;
     font-style: normal;
     font-weight: 700;
+    font-size: 42px;
     line-height: normal;
 }
 
 .sessao1 .texto-projeto {
     color: var(--Marrom, #434343);
-    font-size: 2rem;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 500px;
 }
+
+.sessao1 img{
+    width: 600px;
+    height: 600px;
+}
+
 
 .sessao1 .titulo-necessidade-doadores {
     color: var(--Azul-escuro, #6D98BA);
-    font-size: 4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -105,7 +110,6 @@ b {
 
 .sessao1 .texto-necessidade-doadores {
     color: var(--Marrom, #434343);
-    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
