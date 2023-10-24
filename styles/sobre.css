@@ -101,32 +101,18 @@ b {
 }
 
 
-.sessao1 .titulo-necessidade-doadores {
-    color: var(--Azul-escuro, #6D98BA);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.sessao1 .texto-necessidade-doadores {
-    color: var(--Marrom, #434343);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .sessao2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 5rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
 }
 
 .sessao2 .titulo-engajamento-voluntario {
     color: var(--Azul-escuro, #6D98BA);
-    font-size: 4rem;
+    font-size: 42px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -134,7 +120,7 @@ b {
 
 .sessao2 .texto-engajamento-voluntario {
     color: var(--Marrom, #434343);
-    font-size: 2rem;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -142,7 +128,7 @@ b {
 
 .sessao2 .titulo-diversidade-de-talentos {
     color: var(--Azul-escuro, #6D98BA);
-    font-size: 4rem;
+    font-size: 42px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -150,23 +136,34 @@ b {
 
 .sessao2 .texto-diversidade-de-talentos {
     color: var(--Marrom, #434343);
-    font-size: 2rem;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
+
 
 .sessao3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 5rem;
-    padding: 10rem;
+    margin-top: 5rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+
+.impacto-mensuravel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
 }
 
 .sessao3 .titulo-impacto-mensuravel {
     color: var(--Azul-escuro, #6D98BA);
-    font-size: 4rem;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -174,15 +171,16 @@ b {
 
 .sessao3 .texto-impacto-mensuravel {
     color: var(--Marrom, #434343);
-    font-size: 2rem;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 500px;
 }
 
 .sessao3 .titulo-sem-fins-lucrativos {
     color: var(--Azul-escuro, #6D98BA);
-    font-size: 4rem;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -190,8 +188,13 @@ b {
 
 .sessao3 .texto-sem-fins-lucrativos {
     color: var(--Marrom, #434343);
-    font-size: 2rem;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.impacto-mensuravel img {
+    width: 600px;
+    height: 600px;
 }
