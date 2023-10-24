@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #434343;
+    --branco: #FFFCFF;
+    --tomate: #FE654F;
+    --azul-escuro: #6D98BA;
+    --azul-claro: #BFE1f3;
+    --alt-azul-claro: #ACC4D7;
+    --cinza-claro: #F3F3F3;
+    --alt-azul-escuro: #90B1CB;
+    --Marrom: #434343; 
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;   
+}
+
+body {
+    width: 98vw;
+    height: 98vh;
+    font-family: 'Roboto', sans-serif;
+    color: var(--preto);
+    background-color: var(--branco);
+    
+}
+
+a {
+    color: var(--preto);
+}
+
+image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 0.87rem;
+}
+
+small {
+    font-size: 0.76rem;
+}
+
+p {
+    color: var(--preto);
+}
+
+b {
+    color: var(--preto);
+}
+
+.sessao1{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.sessao1 .criar-demanda{
+    color: var(--azul-escuro);
+    margin-bottom: 2%;
+}
+
+.sessao1 .formulario-demanda .titulo{
+    color: var(--azul-escuro);
+    font-family: 'Roboto', sans-serif;
+
+}   
+
+.sessao1 .formulario-demanda .tipo{
+    color: var(--azul-escuro);
+    font-family: 'Roboto', sans-serif;
+}
+.sessao1 .formulario-demanda .descricao{
+    color: var(--azul-escuro);
+    font-family: 'Roboto', sans-serif;
+}
+
+.sessao1 .formulario-demanda .caixa-titulo{
+    background-color: var(--cinza-claro);
+    height: 3rem;
+    width: 24rem;
+    border-radius: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--preto); 
+}
+
+.sessao1 .formulario-demanda h2{
+    padding-top: 1rem;  
+}
+
+.sessao1 .formulario-demanda .caixa-descricao{
+    width: 380px;
+    height: 180px;
+    background-color: var(--cinza-claro);
+    border-radius: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--preto); 
+    padding-top: 1rem;
+}
+
+.sessao1 .formulario-demanda .caixa-tipo{
+    background-color: var(--cinza-claro);
+    height: 3rem;
+    width: 24rem;
+    border-radius: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--preto); 
+    cursor: pointer;
+    appearance: none;
+}
+
+.sessao1 .formulario-demanda .botao-demanda{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 9rem;
+}
+
+.sessao1 .formulario-demanda .botao-demanda:hover{
+    color: var(--azul-claro);
+    background: var(--azul-escuro);
+    transform: scale(1.1);
+    transition: all 0.25s;
+    cursor: pointer;
+}
+

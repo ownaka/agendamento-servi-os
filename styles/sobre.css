@@ -17,7 +17,6 @@
     --azul-escuro: #6D98BA;
     --azul-claro: #BFE1f3;
     --alt-azul-claro: #ACC4D7;
-    ;
     --alt-azul-escuro: #90B1CB;
     --Marrom: #434343; 
 }
@@ -71,242 +70,131 @@ b {
     color: var(--preto);
 }
 
-
-.sessao1{
-    display: grid;
+.sessao1 {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 10rem;
     align-items: center;
-    flex-direction: row;
-    justify-content:center;
-    gap: 10rem;
-    font-family: sans-serif;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "sobre-o-projeto sobre-o-projeto sobre-o-projeto "
-    "imagem-sessao1 necessidade-e-doadores necessidade-e-doadores"
-    ;
 }
 
-.sobre-o-projeto {
-    grid-column: 1 / -1;
-    grid-area: sobre-o-projeto ;
-}
-
-.necessidade-e-doadores {
-    grid-area: necessidade-e-doadores;
-
-}
-
-.titulo-projeto {
-    color: var(--alt-azul-escuro);
-    font-size: 3rem;
-
-}
-
-.titulo-necessidade-doadores {
-    color: var(--alt-azul-escuro);
-    font-size: 3rem;
+.sessao1 .titulo-projeto {
+    color: var(--Azul-escuro, #6D98BA);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: normal;
 }
 
 .sessao1 .texto-projeto {
-    font-size: 1.65rem;
+    color: var(--Marrom, #434343);
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-   
+    width: 500px;
 }
 
-.sessao1 .texto-necessidade-doadores {
-    font-size: 1.65rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-   
-}
-
-.imagem-sessao1 {
-    grid-area: imagem-sessao1;
+.sessao1 img{
+    width: 600px;
+    height: 600px;
 }
 
 
 .sessao2 {
-    display: grid;
-    align-items: center;
-    flex-direction: row;
-    justify-content:center;
-    gap: 10rem;
-    font-family: sans-serif;
-    margin: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
 }
 
-.titulo-engajamento-voluntario {
-    color: var(--alt-azul-escuro);
-    font-size: 3rem;
-}
-
-.titulo-diversidade-de-talentos {
-    color: var(--alt-azul-escuro);
-    font-size: 3rem;
+.sessao2 .titulo-engajamento-voluntario {
+    color: var(--Azul-escuro, #6D98BA);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .sessao2 .texto-engajamento-voluntario {
-    font-size: 1.65rem;
+    color: var(--Marrom, #434343);
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
+}
+
+.sessao2 .titulo-diversidade-de-talentos {
+    color: var(--Azul-escuro, #6D98BA);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
 }
 
 .sessao2 .texto-diversidade-de-talentos {
-    font-size: 1.65rem;
+    color: var(--Marrom, #434343);
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
 
 
 .sessao3 {
-    display: grid;
-    align-items: center;
-    flex-direction: row;
-    justify-content:center;
-    gap: 10rem;
-    font-family: sans-serif;
-    margin: 15rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "impacto-mensuravel impacto-mensuravel imagem-sessao3"
-    "sem-fins-lucrativos sem-fins-lucrativos sem-fins-lucrativos"
-    ;
-}    
-
-.titulo-impacto-mensuravel {
-    color: var(--alt-azul-escuro);
-    font-size: 3rem;
-}
-
-.sessao3 .texto-impacto-mensuravel {
-    font-size: 1.65rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
 }
 
 .impacto-mensuravel {
-    grid-area: impacto-mensuravel;
-}
-
-.imagem-sessao3 {
-    grid-area: imagem-sessao3;
-}
-
-
-.sem-fins-lucrativos {
-    grid-column: 1 / -1;
-    grid-area: sem-fins-lucrativos;
-
-}
-
-.titulo-sem-fins-lucrativos {
-    color: var(--alt-azul-escuro);
-    font-size: 3rem;
-}
-
-.sessao3 .texto-sem-fins-lucrativos {
-    font-size: 1.65rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-
-.footer {
-    display: grid;
-    width: 96%;
-    margin: 0 auto;
-    gap: 1.8rem;
-}
-
-aside .rodape {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 1.5rem;
+    gap: 5rem;
 }
 
-aside .rodape .nome-rodape {
-    display: flex;
-    gap: 0.5rem;
-    float: left;
-    margin-top: 2rem;
-}
-
-
-aside .rodape .nome-rodape aside .rodape .nome-rodape .p1 {
-    color: var(--preto);
-}
-
-
-aside .rodape .logo-rodape {
-    display: flex;
-    gap: 0.5rem;
-    float: left;
-    margin-top: 5.56rem;
-    float: left;
-    
-
-}
-
-
-aside .rodape .social-rodape {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    height: 2rem;
-    gap: 1rem;
-    position: relative;
-    margin: 2rem;
-    float: right !important;
-    margin-right: 15.25rem;
-    margin-bottom: 8rem;
-}
-
-aside .rodape .social-rodape img {
-    width: 2rem;
-    height: 2rem;
-}
-
-aside .rodape a {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-aside .logo-rodape .dev-by {
-    color: var(--Marrom);
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-family: sans-serif;
-    
-
-}
-
-aside .nome-rodape{
-    font-family: sans-serif;
-    font-size: 2rem;
+.sessao3 .titulo-impacto-mensuravel {
+    color: var(--Azul-escuro, #6D98BA);
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 15.44rem;
-    margin-bottom: 5.94rem;
 }
 
-aside .nome-rodape .p1{
-    color: var(--Marrom);
-    
+.sessao3 .texto-impacto-mensuravel {
+    color: var(--Marrom, #434343);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
 }
 
-aside .nome-rodape .l1{
-    color: var(--azul-escuro);
-    margin-left: 0.5rem;
+.sessao3 .titulo-sem-fins-lucrativos {
+    color: var(--Azul-escuro, #6D98BA);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sessao3 .texto-sem-fins-lucrativos {
+    color: var(--Marrom, #434343);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.impacto-mensuravel img {
+    width: 600px;
+    height: 600px;
 }

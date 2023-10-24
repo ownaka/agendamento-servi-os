@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/demanda.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/rodape.css">
     <title>Demanda</title>
 </head>
 <body>
@@ -33,7 +35,7 @@
                     <h3 class="fonte2">CONTATO</h3>
                 </a>
                 <a href="loginVoluntario.html">
-                    <button class="fonte2">Entrar</button>
+                    <button class="loginBMenu">Entrar</button>
                 </a>
                 <a href="cadastroVoluntario.html">
                     <button class="loginBMenu">Cadastrar-se</button>
@@ -44,20 +46,27 @@
 </div>
 
 <!-- Inicio da Sessão 1 -->
-    <aside>
+    <div class="formulario">
         <div class="sessao1">
-        <div class="fonte3">
             <h1 class="criar-demanda">Criar uma Demanda</h1><p>
-        </div>
-        <form name="formulario-demanda">
-            Titulo <br><input type="text" name="titulo-demanda" size="61"><p>
-            Tipo <br><input type="text" name="tipo-demanda" size="15"><P>
-            Descrição <br><textarea name="descricao-demanda" rows="8" cols="60"></textarea><p>
-                <input type="reset" name="botao-limpar" value="Limpar dados">
-                <input type="submit" name="botao-enviar" value="Enviar dados">
+        <form class="formulario-demanda" name="formulario-demanda">
+            <h2 class="titulo">Título</h2>  
+            <input class="caixa-titulo" type="text" name="titulo-demanda" size="61"><p>
+            <h2 class="tipo">Tipo</h2>
+            <select class="caixa-tipo" type="" name="tipo-demanda">
+                <option value="selecione uma opcao">Selecione uma opção</option>
+                <option value="campanha">Campanha</option>
+                <option value="doacao">Doação</option>
+                <option value="ajuda-comunitaria">Ajuda comunitária</option>
+                <option value="servicos">Serviços</option>
+            </select><P>
+            <h2 class="descricao">Descrição</h2>
+            <textarea class="caixa-descricao" name="descricao-demanda" rows="8" cols="60"></textarea><p>
+                <input type="reset" class="botao-demanda" name="botao-limpar" value="Limpar dados">
+                <input type="submit" class="botao-demanda" name="botao-enviar" value="Enviar dados">
         </form>
         </div>
-    </aside>
+    </div>  
 
 <!-- Incio do rodapé -->
 <footer class="footer-page">

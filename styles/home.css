@@ -322,10 +322,18 @@ aside .sessao1 .texto-do-header1{
     flex-direction: left;
    
  }
+
+ .sessao4 .p-contato:hover{
+    color: var(--branco);
+    background: var(--azul-escuro);
+    transform: scale(1.1);
+    transition: all 0.25s;
+    cursor: pointer;
+ }
  
  .sessao4 .caixa{
-    width: 34.125rem;
-    height: 5.625rem;
+    width: 479px;
+    height: 45px;
     border-radius: 1.5625rem;
     color: var(--preto);
     background-color: #F3F3F3;
