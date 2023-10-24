@@ -28,8 +28,6 @@ html {
 }
 
 body {
-    width: 98vw;
-    height: 98vh;
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
     background-color: var(--branco);

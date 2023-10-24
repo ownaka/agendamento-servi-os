@@ -1,13 +1,14 @@
 .container {
     display: grid;
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
     gap: 1.8rem;
-    font-family: sans-serif;
+    background-color:rgba(0,0,0,0.9);
+    
 }
 
 aside {
-    width: 96vw;
+    width: 98vw;
 }
 
 aside.menu {
@@ -23,7 +24,7 @@ aside .menu .logo {
     gap: 0.5rem;
     float: left;
     margin-top: 2rem;
-    margin-left: 8.48rem;
+    margin-left: 90px;
 }
 
 aside .menu .logo img {
@@ -32,7 +33,7 @@ aside .menu .logo img {
 }
 
 aside .menu .logo .p-projeto{
-    color: var(--Marrom);
+    color: var(--preto);
      
 }
 
@@ -43,7 +44,6 @@ aside .menu .logo .p-lares{
 }
 
 aside .menu .logo .fonte1{
-    font-family: sans-serif;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
@@ -73,14 +73,17 @@ aside .menubar span {
 }
 
 aside .menubar .fonte2{
-    color: var(--preto);
+    color: var(--branco);
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
+}
 
+aside .menubar .fonte2:hover{
+    color: var(--tomate);
 }
 
 aside .menubar .loginBMenu{
@@ -94,3 +97,31 @@ aside .menubar .loginBMenu{
     padding: 1rem;
     width: 9rem;
 }
+
+aside .menubar .loginBMenu:hover{
+    color: var(--tomate);
+    transform: scale(1.1);
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.lares .conheca-nossos_lares .titulo-lares{
+    color: var(--azul-escuro);
+    margin-left: 13.63rem;
+    margin-top: 13.43rem;
+
+}
+
+.resumo-lares .texto-lares .titulo-lares{
+    color: var(--azul-escuro);
+    margin-left: 13.63rem;
+    
+}
+
+.resumo-lares .texto-lares .sub-texto{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1.63rem;
+    margin-left: 13.63rem;
+}
+

@@ -2,9 +2,9 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-        <link rel="stylesheet" href="../styles/loginUsr.css">
-        <link rel="stylesheet" href="../styles/men.css">
-        <link rel="stylesheet" href="../styles/rodap.css">
+        <link rel="stylesheet" href="../styles/cadastroVoluntário.css">
+        <link rel="stylesheet" href="../styles/menu.css">
+        <link rel="stylesheet" href="../styles/rodape.css">
         <title>Projeto Lares</title>
     </head>
     <body>
@@ -29,97 +29,60 @@
                     <a href="lares.html">
                         <h3 class="fonte2">LARES</h3>
                     </a>
-                    </a>
                     <a href="contato.html">
                         <h3 class="fonte2">CONTATO</h3>
                     </a>
                     <a href="loginVoluntario.html">
-                        <button class="fonte2">Entrar</button>
+                        <button class="loginBMenu">Entrar</button>
+                    </a>
+                    <a href="cadastroVoluntario.html">
+                        <button class="loginBMenu">Cadastrar-se</button>
                     </a>
                 </div>
             </div>
         </aside>
     </div>
     <!--Formulário de Login-->
-    <div class="containerCadastro">
+    <div class="containerLogin">
         <div class="loginForm">
-                <h1 class="portalV">Portal do Voluntário</h1>
-                <p class="paragrafroPortal">Não perca tempo e faça já parte dessa imensa rede de apoio</p>
-                <div class="formCadastro">
-                    <h3 class="cadNome">Nome Completo</h3>
-                    <input class="loginBox" type="text">
-                    <h3 class="cadCPF">CPF</h3>
-                    <input class="cadastroCPF" type="text">
-                    <h3 class="cadEmail">E-mail</h3>
-                    <input class="cadastroEmail" type="text">
-                    <h3 class="cadNumero">Número Celular</h3>
-                    <input class="cadastroCelular" type="text">
-                    <h3 class="cadSenha">Senha</h3>
-                    <input class="cadastroSenha" type="text">
-                    <h3 class="cadSenha2">Confirmar Senha</h3>
-                    <input class="cadastroConfSenha" type="text">
-                </div>
-                
-                <div class="opcoesLogin">
-                    <a href="loginInstituicao.html" class="instituicaoPortal">Sou uma instituição</a>
-                </div>
-            <div class="botaoCad">
-                <a href="cadastroVoluntario.html">
-                    <button class="criarConta" type="submit" " >Criar conta</button>
-                </a>
-                <a href="#">
-                <button class="loginBotao" type="submit" >Entrar</button>
-                </a>
-            </div>
+            <h1 class="portalV">Cadastro do <span class="portalI">Voluntáriado</span></h1>
+            <p class="paragrafoPortal">Não perca tempo e faça já parte dessa imensa rede de apoio</p>
+                    <form class="formulario-login">
+                        <input class="loginBox" type="text" placeholder="Digite seu CPF">
+                        <input class="loginBox" type="email" placeholder="Digite seu email">
+                        <input class="loginBox" type="tel" placeholder="Digite seu telefone">
+                        <input class="loginBox" type="password" placeholder="Digite sua Senha">
+                        <input class="loginBox" type="password" placeholder="Confirme sua Senha">
+                        <button class="loginBotaoEnviar" type="button">Entrar</button>
+                    </form>
+                    <footer class="footer-card">
+                        Para se cadastrar, <a href="../pages/cadastroVoluntario.html">clique aqui!</a><br>
+                        É uma instituição?<a href="../pages/loginInstituicao.html">Entre aqui</a>
+                    </footer>
         </div>
     </div>
     <!-- Incio do rodapé -->
-    <div class="footer">
-        <aside>
-            <div class="rodape">
-                <div class="nome-rodape">
-                    <a>
-                        <span class="p-projeto2">Projeto</span><span class="p-lares2"> LARES</span>
-                        
-                    </a>
-                </div>
-                <div class="logo-rodape">
-                    <a>
-                        
-                        <span class="dev-by">criado e desenvolvido</span><span class="dev-yb"> ABCD</span>
-                    </a>
-                </div>
-                <div class="social-rodape">
-                  <!--  <a href="home.html">
-                        <h3 class="fonte2">HOME</h3>
-                    </a>
-                    <a href="sobre.html">
-                        <h3 class="fonte2">SOBRE</h3>
-                    </a>
-                    <a href="lares.html">
-                        <h3 class="fonte2">LARES</h3>
-                    </a>
-                    </a>
-                    <a href="contato.html">
-                        <h3 class="fonte2">CONTATO</h3>
-                    </a>
-                     <a href="entrar.html">
-                        <button class="font2">entrar</button>
-                    </a>
-                    <a href="cadastro.html">
-                        <button class="fonte2">cadastro</button>
-                    </a>
-                    -->
-                    <a href="https://www.instagram.com">
-                        <img src="../images/icones/instagram icon.png">
-                    </a>
-                    <a href="https://www.facebook.com">
-                        <img src="../images/icones/facebook icon.png">
-                    </a>
-                </div>
-            </div>
-        </aside>
-    </div>
+    <footer class="footer-page">
+        <div class="footer-left">
+            <a>
+                <span class="p-projeto2">Projeto</span><span class="p-lares2"> LARES</span>
+                
+            </a>
+        </div>
+        <div class="footer-center">
+            <a>
+                <span class="dev-by">criado e desenvolvido</span><span class="dev-yb"> ABCD</span>
+            </a>
+        </div>
+        <div class="footer-right">
+            <a href="https://www.instagram.com">
+                <img src="../images/icones/instagram icon.png">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="../images/icones/facebook icon.png">
+            </a>
+        </div>
+    </footer>
 
     </body>
 </html>

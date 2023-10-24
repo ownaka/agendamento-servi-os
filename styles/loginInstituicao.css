@@ -75,54 +75,46 @@ b {
 .containerLogin{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    gap: 10rem;
-    font-family: sans-serif;
+    padding: 50px;
+    place-items: center;
+    height: 90vh;
 }
 
-
-
-.loginForm{
-    padding-top: 8rem;
-    padding-bottom: 6rem;
-}
-
-.loginForm .portalV{
+.containerLogin .portalV{
     color:var(--preto);
     font-size: 3rem;
     margin-bottom: 1rem;
-    margin-left: 10%;
 }
 
-.loginForm .portalI{
+.containerLogin .portalI{
     color: var(--tomate);
 }
 
-.loginForm .paragrafoPortal{
+
+.containerLogin .paragrafoPortal{
     color: var(--preto);
     font-size: 16px;
-    margin-left: 10%;
 }
 
-.loginForm .caixaForm{
+.loginForm{
+    padding: 40px;
+    border-radius: 30px;
+    place-items: center;
+    text-align: center;
+    background-color: var(--branco);
+}
+
+.centro-pag{
+    place-items: center;
+}
+
+.formulario-login{
+    padding-top: 20px;
+    margin: 1.5rem;
     display: flex;
     flex-direction: column;
-    padding: 3rem;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.form{
-    margin: 1.5rem;
-}
-
-.form .loginText{
-    color: var(--tomate);
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    margin-left: 1rem;
+    gap: 25px;
+    place-items: center;
 }
 
  
@@ -134,29 +126,8 @@ b {
     padding-left: 1rem;
     padding-right: 1rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: var(--preto);
-}
-
-.opcoesLogin .resetSenha{
-    justify-content: left;
-    margin-right: 3rem;
-}
-
-.opcoesLogin .instituicaoPortal{
-    justify-content: right;
-}
-
-.loginBotaoCriar{
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 16px;
     color: var(--preto);
-    background-color: var(--cinza-claro);
-    margin: 2rem;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    width: 15rem;
 }
 
 .loginBotaoEnviar{
@@ -170,3 +141,9 @@ b {
     padding: 1rem;
     width: 9rem;
 }
+
+.loginform .footer-card a{
+    text-decoration: underline;
+    color: var(--tomate);
+}
+
