@@ -223,7 +223,7 @@ b {
 .container-3{
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     margin-top: 40px;
     background-image: url("../images/pattern-background.png");
     background-size:400px;
@@ -236,6 +236,7 @@ b {
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 50vh;
     padding: 50px;
     margin-top: 50px;
     gap: 25px;
@@ -296,6 +297,30 @@ b {
     box-shadow: 0px 5px 10px rgba(38, 38, 39, 0.293);
 }
 
+.form-right .contato-enviar{
+    padding: 1.3em 3em;
+    font-size: 16px;
+    font-weight: 500;
+    width: 30%;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-right .contato-enviar:hover{
+    background-color:var(--tomate);
+    box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.form-right .contato-enviar:active {
+    transform: translateY(-1px);
+  }
   
 
 
