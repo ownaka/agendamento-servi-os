@@ -1,22 +1,53 @@
-.footer-page{
-    font-size: 14px;
-    font-family: 'Roboto';
-    justify-content: space-around;
-    align-items: center;
+footer {
     display: flex;
-    height: 100px;
-    margin: auto;
-    bottom: 0;
-    color: var(--branco);
-    background-color: var(--branco);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-top: 60px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
 }
 
-.footer-page img{
-    width: 30px;
+.footer-right{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+    float: left;
+    gap: 20px;
+    margin-right: 40px;
 }
 
-.footer-right:hover{
-    transform: scale(1.1);
-    transition: all 0.25s;
+.logo-navbar{
+    width: 50px;
+    margin: 40px;
+
+}
+
+.footer-right .botao-footer{
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
     cursor: pointer;
-} 
+    outline: none;
+}
+
+.botao-footer:hover{
+    background-color:var(--tomate);
+  box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.botao-footer:active {
+    transform: translateY(-1px);
+  }

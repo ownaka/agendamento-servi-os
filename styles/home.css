@@ -220,305 +220,89 @@ b {
     font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
- 
-
- .sessao3{
+.container-3{
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content:center;
-    margin-top: 8.25rem;
- }
- 
-  .sessao3 .cor-tituloMissao{
-    color: var(--azul-escuro);
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 5rem;
-    
-    
-
- }
- .sessao3 .cor-textoMissao1{
-    color: var(--Marrom);
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
-    
- }
- .sessao3 .cor-textoMissao2{
-    color: var(--Marrom);
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
- }
- .sessao3 .imagem-crianca{
-    margin-left: 4.38rem;
     width: 100%;
-    height: 29.93663rem;
-    transform: rotate(-15deg);
-    flex-shrink: 0;
-    
- }
+    height: 70vh;
+    margin-top: 40px;
+    background-image: url("../images/pattern-background.png");
+    background-size:400px;
+    background-repeat: no-repeat;
+    background-position: initial;
+    gap: 40px;
+}
 
-
-
-
- 
- .sessao4{
+.container-3 .form-left{
     display: flex;
-    margin-left: 16.25rem;
-    margin-right: 22.12rem;
-      
- }
- 
+    flex-direction: column;
+    width: 50%;
+    padding: 50px;
+    margin-top: 50px;
+    gap: 25px;
+    background: var(--branco);
+    border-radius: 0px  50px  50px 0px;
+    padding: 50px;
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+}
 
+.form-left h1{
+    font-size: 32px;
+    color: var(--preto);
+    font-weight: 600;
 
+}
 
-.cor-contato{
-    color: var(--azul-escuro);
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    flex-direction: center;
-    
-    margin-left: 50.13rem;
-    margin-top: 13rem;
-    margin-bottom: 4.56rem;
-     
- }
+.form-left p{
+    color: var(--preto);
+    font-size: 16px;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    padding: 50px;
+    margin-top: 50px;
+    gap: 25px;
+    background: var(--preto);
+    border-radius: 50px;
+    padding: 50px;
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+}
+
+.form-right h1{
+    color: var(--branco);
+}
+
+.form-right .form-contato{
+    border-color: var(--preto);
+    padding: 20px;
+    border-radius: 50px;
+    color: var(--preto);
+    font-family: 'Roboto',Courier;
+    box-shadow: 0px 5px 10px rgba(38, 38, 39, 0.293);
+}
+
+.form-right textarea{
+    width: 100%;
+    padding: 18px 20px;
+    border-radius: 30px;
+    resize: none;
+    color: var(--preto);
+    height: 100%;
+    background-color: var(--branco);
+    color: var(--preto);
+    font-family: 'Roboto',Courier;
+    box-shadow: 0px 5px 10px rgba(38, 38, 39, 0.293);
+}
+
   
 
- .sessao4 .campo1{
-    margin-top: 4.56rem;
-    
- }
 
- .sessao4 .p-nome{
-    color: var(--azul-escuro);
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    align-self:flex-end;
-    width: 34.125rem;
-    height: 5.625rem;
-    
- }
+
+
+
 
  
 
- .sessao4 .p-email{
-    color: var(--azul-escuro);
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 34.125rem;
-    height: 5.625rem;
-
- }
-
- .sessao4 .p-assunto{
-    color: var(--azul-escuro);
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 34.125rem;
-    height: 14rem;
-
- }
-
  
- .sessao4 .imagem-contato{
-    margin-right: 11.37rem;
-    width: 39.875rem;
-    height: 39.875rem;
-    
-    
- }
- 
- .sessao4 .p-contato{
-    color: var(--branco);
-    background-color: var(--azul-escuro);
-    font-family: sans-serif;
-    width: 9rem;
-    height: 3rem;
-    border-radius: 1rem; 
-    margin-left:23.62rem;
-    margin-top: 3.25rem;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    
-    
- }
-
- .sessao4 .b-enviar{
-    flex-direction: left;
-   
- }
-
- .sessao4 .p-contato:hover{
-    color: var(--branco);
-    background: var(--azul-escuro);
-    transform: scale(1.1);
-    transition: all 0.25s;
-    cursor: pointer;
- }
- 
- .sessao4 .caixa{
-    width: 479px;
-    height: 45px;
-    border-radius: 1.5625rem;
-    color: var(--preto);
-    background-color: #F3F3F3;
-    line-height: normal;
-   
-}
-
- .sessao4 .caixa-assunto{
-    width: 34.12rem;
-    height: 14rem;
-    border-radius: 1.5625rem;
-    color: var(--preto);
-    background-color: #F3F3F3;
-   
- }
-
-
-.footer {
-    display: grid;
-    width: 96%;
-    margin: 0 auto;
-    gap: 1.8rem;
-}
-
-aside .rodape {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1.5rem;
-}
-
-aside .rodape .nome-rodape {
-    display: flex;
-    gap: 0.5rem;
-    float: left;
-    margin-top: 2rem;
-}
-
-aside .rodape .nome-rodape aside .rodape .nome-rodape .p1 {
-    color: var(--preto);
-}
-
-
-aside .rodape .logo-rodape {
-    display: flex;
-    gap: 0.5rem;
-    float: left;
-    margin-top: 5.56rem;
-    float: left;
-    
-
-}
-
-
-
-aside .rodape .social-rodape {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    height: 2rem;
-    gap: 1rem;
-    position: relative;
-    margin: 2rem;
-    float: right !important;
-    margin-right: 15.25rem;
-    margin-bottom: 8rem;
-}
-
-aside .rodape .social-rodape img {
-    width: 2rem;
-    height: 2rem;
-}
-
-aside .rodape a {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-aside .logo-rodape .dev-by {
-    color: var(--Marrom);
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-aside  .dev-yb{
-    color: var(--Marrom);
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 0.4rem;
-}
-aside .nome-rodape{
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: 15.44rem;
-    margin-bottom: 5.94rem;
-    
-    
-    
-}
-
-aside .nome-rodape .p-projeto2{
-    color: var(--Marrom);
-    
-}
-
-aside .nome-rodape .p-lares2{
-    color: var(--azul-escuro);
-    margin-left: 0.5rem;
-}
-
-aside2 {
-    width: 90vw;
-}
-
-.missao {
-    align-items: center;
-    position: absolute;
-}
-
-.missao .cor-titulo {
-    color: #AC4430;
-    font-size: 2rem;
-}
-
-.missao .cor-texto {
-    color: #B76336;
-    font-size: 1.5rem;
-}
