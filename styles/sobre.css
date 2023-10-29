@@ -11,9 +11,14 @@
 }
 
 :root {
-    --preto: #1F232F;
+    --preto: #434343;
     --branco: #FFFCFF;
-    --tomate: #1464f8;
+    --tomate: #FE654F;
+    --azul-escuro: #6D98BA;
+    --azul-claro: #BFE1f3;
+    --alt-azul-claro: #ACC4D7;
+    --alt-azul-escuro: #90B1CB;
+    --Marrom: #434343; 
 }
 
 html {
