@@ -30,6 +30,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
     background-color: var(--branco);
+    width: 100%;
     
 }
 
@@ -70,13 +71,22 @@ b {
     color: var(--preto);
 }
 
-.sessao1{
-   font-family: 'Roboto', sans-serif;
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10rem;
+    width: 100%;
+    height: 900px;
+    background-image: url("../images/pattern-background.png");
+    background-size:500px;
+    background-repeat: no-repeat;
+    background-position: 10%, 0%;
    
 }
 
 .sessao1 .fonte1{
-    margin-top: 70px;
+    
 }
 
 .sessao1 .titulo{
@@ -111,7 +121,7 @@ b {
     align-items: center;
     
 }
-.formulario .titulof{
+.contato-form-left-right .titulof{
     margin-left: 0.75rem;
     font-size: 1.5rem;
     font-style: normal;
@@ -120,7 +130,7 @@ b {
     color:var(--azul-escuro);
     
 }
-.formulario .caixa{
+.contato-form-left-right .caixa{
     width: 23rem;
     height: 2rem; 
     font-size: 1rem;
@@ -131,7 +141,7 @@ b {
     
 }
 
-.formulario .caixa2{
+.contato-form-left-right .caixa2{
     width: 23rem;
     height: 14rem;
     font-size: 1.5rem;
@@ -141,7 +151,7 @@ b {
 
 }
 
-.formulario .botaov{
+.contato-form-left-right .botaov{
     margin-left: 1rem;
     width: 10rem;
     height: 2.5rem;
