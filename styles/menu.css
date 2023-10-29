@@ -1,4 +1,4 @@
-navbar {
+nav {
     display: flex;
     width: 97vw;
     height: 70px;
@@ -8,8 +8,7 @@ navbar {
     border-radius: 50px;
     background-color: #ffffff;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
-    border: 0.1px solid rgba(128, 128, 128, 0.178);
-    
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
 }
 
 .menu{
@@ -24,7 +23,7 @@ navbar {
 }
 
 .logo-navbar{
-    width: 80px;
+    width: 50px;
     margin: 40px;
 
 }
