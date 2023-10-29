@@ -101,7 +101,8 @@ b {
     border-radius: 30px;
     place-items: center;
     text-align: center;
-    background-color: var(--branco);
+    background-color: transparent;
+    backdrop-filter: blur(20px)
 }
 
 .centro-pag{

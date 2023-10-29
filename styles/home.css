@@ -17,7 +17,6 @@
     --azul-escuro: #6D98BA;
     --azul-claro: #BFE1f3;
     --alt-azul-claro: #ACC4D7;
-    ;
     --alt-azul-escuro: #90B1CB;
     --Marrom: #434343; 
 }
@@ -30,7 +29,8 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
-    background-color: var(--branco);
+    background-color: var(--branco) ;
+    width: 100%;
     
 }
 
@@ -72,46 +72,57 @@ b {
 }
 
 
-aside .sessao1{
+.container{
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content:center;
     gap: 10rem;
+    width: 100%;
+    height: 900px;
+    background-image: url("../images/pattern-background.png");
+    background-size:500px;
+    background-repeat: no-repeat;
+    background-position: 10%, 0%;
    
 }
-
-
-    
-
- aside .sessao1  .header1{
-    color: var(--preto);
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.callout-inicio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 110px;
+    width: 750px;
+    height: 300px;
+    border-radius: 50px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
+    border: 0.1px solid rgba(128, 128, 128, 0.178);
+    align-items: left;
+    backdrop-filter: blur(3px);
 }
 
- aside .sessao1  .lar1{
-    color: var(--Azul-escuro, #6D98BA);
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    
-    
+.callout-inicio h1{
+    font-size: 48px;
+    display: flex;
+    margin-right: 8px;
+}
+.callout-inicio .texto-parte-2{
+    color: var(--tomate);
 }
 
-aside .sessao1 .texto-do-header1{
-    color: var(--Marrom, #434343);
-   
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
-    
+.callout-inicio p{
+    font-size: 20px;
+    margin-top: -10%;
 }
+
+.callout-imagem{
+    display: flex;
+    background: var(--preto);
+    border-radius: 60px;
+}
+
+
 
 
 
