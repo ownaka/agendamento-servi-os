@@ -70,15 +70,16 @@ b {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 110vh;
+    height: 98vh;
     gap: 40px;
     padding: 50px;
 }
 
 .loginForm{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    height: 70%;
+    height: 83%;
     width: 25%;
     border-radius: 30px;
     background-color: var(--preto);
