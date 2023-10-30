@@ -23,8 +23,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
-    background-color: var(--branco);
-    background-image:url(../images/img_voluntario_login.jpg);
+    background-color: #F2ECF8;
     background-size:cover;
     
 }
@@ -68,77 +67,90 @@ b {
 
 .containerLogin{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110vh;
+    gap: 40px;
     padding: 50px;
-    place-items: center;
-    height: 90vh;
-}
-
-.containerLogin .portalV{
-    color:var(--preto);
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.containerLogin .portalI{
-    color: var(--azul-escuro);
-}
-
-
-.containerLogin .paragrafoPortal{
-    color: var(--preto);
-    font-size: 16px;
 }
 
 .loginForm{
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 25%;
     border-radius: 30px;
-    place-items: center;
+    background-color: var(--preto);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+}
+
+.loginForm h1{
+    padding-top: 35px;
     text-align: center;
-    background-color: transparent;
-    backdrop-filter: blur(20px)
+    color: #fff;
 }
 
-.centro-pag{
-    place-items: center;
+.loginForm p{
+    padding-top: 25px;
+    text-align: center;
+    color: #fff;
 }
 
-.formulario-login{
-    padding-top: 20px;
-    margin: 1.5rem;
+ .formulario-login{
+    padding-top: 30px;
+    margin: 16px;
     display: flex;
     flex-direction: column;
     gap: 25px;
     place-items: center;
+
 }
 
  
 .loginBox{ 
-    background-color: var(--cinza-claro);
-    height: 3rem;
-    width: 24rem;
-    border-radius: 1.3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    height: 50px;
+    width: 85%;
+    border-radius: 50px;
+    padding: 20px;
+    font-family: 'Roboto',Courier;
     font-weight: 500;
     color: var(--preto);
 }
 
 .loginBotaoEnviar{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',Courier;
     font-weight: 500;
     font-size: 16px;
-    color: var(--branco);
-    background-color: var(--azul-escuro);
-    margin: 2rem;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    width: 9rem;
+    color: var(--tomate);
+    border-radius: 45px;
+    padding: 16px;
+    width: 144px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
-.loginform .footer-card a{
-    text-decoration: underline;
-    color: var(--azul-escuro);
+.loginBotaoEnviar:hover{
+    background-color:var(--tomate);
+    box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
 }
 
+.down{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.down h3{
+    font-size: 14px;
+    color: #fff;
+}
+
+.down a{
+    color: var(--tomate);
+}
