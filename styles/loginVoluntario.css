@@ -55,6 +55,7 @@ h3 {
 }
 
 small {
+    color: var(--branco);
     font-size: 0.76rem;
 }
 
