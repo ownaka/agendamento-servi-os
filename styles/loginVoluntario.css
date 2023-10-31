@@ -18,13 +18,14 @@
 
 html {
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;   
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
-    background-color: var(--branco);
-    background-size:cover;
+    background-color: var(--branco) ;
+    width: 100%;
     
 }
 
@@ -65,97 +66,119 @@ b {
     color: var(--preto);
 }
 
-.containerLogin{
+.container{
     display: flex;
-    flex-direction: column;
-    padding: 50px;
-    padding-top: 180px;
-    place-items: center;
     width: 100%;
-    height: 900px;
-
+    height: 90vh;
+    justify-content: center;
+    align-items:center;
+    padding-top: 70px;
+    background-image: url("../images/pattern-background.png");
+    background-size:400px;
+    background-repeat: no-repeat;
+    background-position: initial;
+    gap: 0;
 }
 
-.containerLogin .portalV{
-    color:var(--preto);
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.containerLogin .portalI{
-    color: var(--azul-escuro);
-}
-
-
-.containerLogin .paragrafoPortal{
-    color: var(--preto);
-    font-size: 16px;
-}
-
-.loginForm{
-    padding: 40px;
-    border-radius: 30px;
-    place-items: center;
-    text-align: center;
+.container .box-login{
+    display: flex;
+    justify-content: center;
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+    align-items:center;
+    gap: 0; 
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
 }
 
-.centro-pag{
-    place-items: center;
-}
 
-.formulario-login{
-    padding-top: 20px;
-    margin: 1.5rem;
+.container .left-side{
+    background: var(--branco);
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    place-items: center;
+    justify-content: center;
+    padding: 80px;
+    border-radius: 50px  0px  0px 50px;
+    width: 30vw;
+    height: 60vh;
+    gap: 30px;
 }
 
-.loginBox {
-    height: 3rem;
-    width: 24rem;
-    padding: 10px;
-    font-family: 'Roboto', Courier, monospace;
-    font-weight: 500;
+.left-side h1{
+    font-size: 44px;
     color: var(--preto);
-    padding-left: 20px ;
-    outline: none;
-    background: #e8e8e8;
-    box-shadow: 5px 5px 17px #c8c8c8,
-               -5px -5px 17px #ffffff;
-    border: none;
-    border-radius: 25px;
-    transition: all 1s;
-  }
-  
-.loginBox:focus {
-    background: #e8e8e8;
-    box-shadow: inset 5px 5px 17px #c8c8c8,
-              inset -5px -5px 17px #ffffff;
 }
 
+.container .right-side{
+    background: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 0px  50px  50px 0px;
+    width: 30vw;
+    height: 60vh;
+    gap: 30px;
+}
 
-
-
-.loginBotaoEnviar{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+.right-side h1{
+    font-size: 38px;
     color: var(--branco);
-    background-color: var(--azul-escuro);
-    margin: 2rem;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    width: 9rem;
 }
 
-.loginform .footer-card a{
-    text-decoration: underline;
-    color: var(--azul-escuro);
+.right-side .form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
 }
 
+.form-login input{
+    border-color: var(--preto);
+    padding: 20px;
+    width: 350px;
+    border-radius: 50px;
+    color: var(--preto);
+    font-family: 'Roboto',Courier;
+    box-shadow: 0px 5px 10px rgba(38, 38, 39, 0.293);
+}
+
+.form-login .enviar-botao{
+    padding: 1.3em 3em;
+    font-size: 16px;
+    font-weight: 500;
+    width: 150px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-login .enviar-botao:hover{
+    background-color:var(--tomate);
+    box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.form-login .enviar-botao:active {
+    transform: translateY(-1px);
+}
+
+.right-side .cadastro-red{
+    color: var(--tomate);
+    margin-left: 8px;
+}
+
+.right-side .instituicao-red{
+    color: var(--tomate);
+    margin-left: 8px;
+}
+
+.right-side span{
+    color: var(--branco);
+}

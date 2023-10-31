@@ -220,7 +220,9 @@ b {
     display: flex;
     width: 100%;
     height: 90vh;
+    justify-content: center;
     margin-top: 40px;
+    align-items:center;
     background-image: url("../images/pattern-background.png");
     background-size:400px;
     background-repeat: no-repeat;
@@ -231,15 +233,19 @@ b {
 .container-3 .form-left{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 50vh;
+    width: 40vw;
+    height: 60vh;
     padding: 50px;
     margin-top: 50px;
     gap: 25px;
     background: var(--branco);
-    border-radius: 0px  50px  50px 0px;
+    border-radius: 50px;
     padding: 50px;
     box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+}
+
+.form-left .imagem-contato{
+    height: 90%;
 }
 
 .form-left h1{
@@ -257,7 +263,7 @@ b {
 .form-right{
     display: flex;
     flex-direction: column;
-    width:45%;
+    width:35vw;
     padding: 50px;
     margin-top: 50px;
     gap: 25px;
