@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="../styles/dashboardVoluntario.css">
         <link rel="stylesheet" href="../styles/menu.css">
         <link rel="stylesheet" href="../styles/rodape.css">
+        <script defer src="../js/dashMenuVolun.js" ></script>
     <title>Dashboard</title>
 </head>
 <body>
@@ -31,30 +32,67 @@
                 </div>
             </div>
             <div class="menu-perfil">
-                <button class="texto-perfil-menu"><i class="fi fi-br-envelope"></i>Tickets</button>
-                <button class="texto-perfil-menu" href="#"><i class="fi fi-br-home"></i>Meus Tickets</button> 
-                <button class="texto-perfil-menu" href="#"><i class="fi fi-br-pencil"></i>Editar Perfil</button> 
-                <button class="texto-perfil-menu" href="#"><i class="fi fi-br-settings"></i>Configurações</button> 
-                <button class="texto-perfil-menu" href="#"><i class="fi fi-br-sign-in-alt"></i>Sair</button> 
+                <button id="carTickets" class="texto-perfil-menu"><i class="fi fi-br-envelope"></i>Tickets</button>
+                <button id="carMeusTickets" class="texto-perfil-menu" href="#"><i class="fi fi-br-home"></i>Meus Tickets</button> 
+                <button id="carEditPerfil" class="texto-perfil-menu" href="#"><i class="fi fi-br-pencil"></i>Editar Perfil</button> 
+                <button id="carConfiguracao"id="carMeusTickets" class="texto-perfil-menu" href="#"><i class="fi fi-br-settings"></i>Configurações</button> 
+                <button class="texto-perfil-menu" href="#"><i class="fi fi-br-sign-in-alt"></i>Sair</button>    
             </div>
         </div>
 
-        <div class="card-tickets">
-            <div class="tickets-elementos">
-                <a href=""><i class="fi fi-br-angle-left"></i></a>
-            <span class="titulo-tickets">Meus Tickets</span>
+        <!-- CARD GERAL-->
+        <div class="card-g">
+            <div class="mensagem-padrao">
+                <h1>Seja bem vindo!</h1>
             </div>
-            <div class="tickets">
-                <div class="ticket-cabecalho">
-                    <span class="elementos-tickets">Nome Ticket</span>
-                    <span class="elementos-tickets">Assunto</span>
-                    <span class="elementos-tickets">nome instituto</span>
-                </div>
-                <div class="ticket-rodape">
-                    <a href="#"><button class="status-ticket">Pendente</button> </a>
-                    <a href="#" class="contato-ticket">Contato</a>                    
+
+            <div class="meusTickets-menu">
+                <div class="ticket-holder">
+                    <div class="cabecalho">
+                        <h2>Meus Tcket</h2>
+                    </div>
+                    <div class="rodape">
+                        <h2>Status Tickets</h2>
+                    </div>
                 </div>
             </div>
+
+            <div class="ge-Tickets-menu">
+                <div class="ticket-holder">
+                    <div class="cabecalho">
+                        <h2>Tickets Gerais Tcket</h2>
+                    </div>
+                    <div class="rodape">
+                        <h2>Status Tickets</h2>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="editar-perfil-menu">
+                <div class="editar-perfil">
+                    <form class="form-edit-perfil">
+                        <input class="loginBox" type="text" placeholder="Digite seu CPF">
+                        <input class="loginBox" type="email" placeholder="Digite seu email">
+                        <input class="loginBox" type="tel" placeholder="Digite seu telefone">
+                        <input class="loginBox" type="password" placeholder="Digite sua Senha">
+                        <input class="loginBox" type="password" placeholder="Confirme sua Senha">
+                        <button class="loginBotaoEnviar" type="button">Entrar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="configuracoes-menu">
+                <div class="conta-config">
+                    <h2 class=title">Conta</h2>
+                    <button class="desabilitar-conta">Desabilitar Conta</button>
+                </div>
+                <div class="conta-config">
+                    <h2 class=title">Personalizar</h2>
+                    <button class="desabilitar-conta">Darkmode</button>
+                </div>
+            </div>
+
         </div>
 
     </div>
