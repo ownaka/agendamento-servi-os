@@ -67,24 +67,53 @@ b {
 
 .containerLogin{
     display: flex;
+    width: 100%;
+    height: 108vh;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 98vh;
-    gap: 40px;
-    padding: 50px;
+    gap: 0;
+    padding-top: 70px;
 }
 
-.loginForm{
-    margin-top: 100px;
+.containerLogin .box-cadastro{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    align-items:center;
+    gap: 0; 
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+}
+
+.containerLogin .left-card{
+    background: var(--branco);
     display: flex;
     flex-direction: column;
-    height: 660px;
-    width: 460px;
-    border-radius: 30px;
-    background-color: var(--preto);
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
-    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+    justify-content: center;
+    padding: 80px;
+    border-radius: 50px  0px  0px 50px;
+    width: 30vw;
+    height: 90vh;
+    gap: 30px;
+}
+
+.left-card h1{
+    font-size: 32px;
+    color: var(--preto);
+    text-align: center;
+    justify-content: center;
+}
+
+.containerLogin .loginForm{
+    background: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 0px  50px  50px 0px;
+    width: 30vw;
+    height: 90vh;
+    gap: 30px;
 }
 
 .loginForm h1{
@@ -99,21 +128,20 @@ b {
     color: #fff;
 }
 
- .formulario-login{
+.formulario-login{
     padding-top: 30px;
     margin: 16px;
     display: flex;
     flex-direction: column;
     gap: 25px;
     place-items: center;
-
 }
 
  
 .loginBox{ 
     background-color: white;
     height: 50px;
-    width: 85%;
+    width: 350px;
     border-radius: 50px;
     padding: 20px;
     font-family: 'Roboto',Courier;
@@ -139,19 +167,16 @@ b {
     transform: translateY(-7px);
 }
 
-.down{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 50px;
-}
-
-.down h3{
-    font-size: 14px;
-    color: #fff;
-    font-family: 'Roboto',Courier;
-}
-
-.down a{
+.loginForm .cadastro-blue{
     color: var(--tomate);
+    margin-left: 8px;
+}
+
+.loginForm .instituicao-blue{
+    color: var(--tomate);
+    margin-left: 8px;
+}
+
+.loginForm span{
+    color: var(--branco);
 }
