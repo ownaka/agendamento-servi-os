@@ -125,7 +125,6 @@ b {
     font-family: 'Roboto',Courier;
     font-weight: 500;
     font-size: 16px;
-    color: var(--tomate);
     border-radius: 45px;
     padding: 16px;
     width: 144px;
@@ -150,6 +149,7 @@ b {
 .down h3{
     font-size: 14px;
     color: #fff;
+    font-family: 'Roboto',Courier;
 }
 
 .down a{
