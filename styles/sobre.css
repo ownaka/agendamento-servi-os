@@ -85,7 +85,7 @@ b {
 }
 
 .container-sessao1 h1{
-    color: var(--Azul-escuro, #6D98BA);
+    color: var(--tomate);
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
@@ -93,7 +93,7 @@ b {
 }
 
 .container-sessao1 h3 {
-    color: var(--Marrom, #434343);
+    color: var(--preto);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -118,7 +118,7 @@ b {
 }
 
 .container-sessao2 h2{
-    color: var(--Azul-escuro, #6D98BA);
+    color: var(--tomate);
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
@@ -126,7 +126,7 @@ b {
 }
 
 .container-sessao2 h3 {
-    color: var(--Marrom, #434343);
+    color: var(--preto  );
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -157,7 +157,7 @@ b {
 }
 
 .container-sessao3 h2 {
-    color: var(--Azul-escuro, #6D98BA);
+    color: var(--tomate);
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
@@ -165,7 +165,7 @@ b {
 }
 
 .container-sessao3 h3 {
-    color: var(--Marrom, #434343);
+    color: var(--preto);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -184,7 +184,7 @@ b {
 }
 
 .container-sessao4 h2{
-    color: var(--Azul-escuro, #6D98BA);
+    color: var(--tomate);
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
@@ -192,7 +192,7 @@ b {
 }
 
 .container-sessao4 h3{
-    color: var(--Marrom, #434343);
+    color: var(--preto);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
