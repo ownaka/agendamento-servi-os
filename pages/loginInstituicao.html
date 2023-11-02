@@ -19,19 +19,25 @@
             </div>
         </nav>
     <!--Formulário de Login-->
-    <div class="containerLogin">
-        <div class="loginForm">
-            <h1 class="portalV">Portal <span class="portalI">Institucional</span></h1>
-            <p class="paragrafoPortal">Não perca tempo e faça já parte dessa imensa rede de apoio</p>
-                    <form class="formulario-login">
-                        <input class="loginBox" type="text" placeholder="Digite seu CNPJ">
-                        <input class="loginBox" type="password" placeholder="Digite sua Senha">
-                        <button class="loginBotaoEnviar" type="button">Entrar</button>
-                    </form>
-                    <footer class="footer-card">
-                        Para se cadastrar, <a href="../pages/cadastroVoluntario.html">clique aqui!</a><br>
-                        É um Voluntário?<a href="../pages/loginVoluntario.html">Entre aqui</a>
-                    </footer>
+    <div class="container">
+        <div class="box-login">
+        <div class="left-side">
+            <h1 class="holder-login">Olá, seja bem vindo!</h1>
+            <img src="../images/team-spirit-animate.svg" alt="">
+        </div>
+        <div class="right-side">
+            <h1 class="login-title">Login Institucional</h1>
+            <form autocomplete="off" class="form-login">
+                <input type="text" class="login-box" id="email" placeholder="Usuário">
+                <small id="textEmail"></small>
+                <input type="text" class="password-box" id="password" placeholder="Senha">
+                <small id="textPassword"></small>
+                <button type="submit" class="enviar-botao">Entrar</button>
+                <small id="textForm"></small>
+            </form>
+            <span>Não tem uma conta?<a href="../pages/cadastroInstituicao.html" class="cadastro-red">Cadastre-se.</a></span>
+            <span>É um voluntário?<a href="../pages/loginVoluntario.html" class="instituicao-red">Sou um voluntário.</a></span>
+        </div>
         </div>
     </div>
     <!-- Incio do rodapé -->
