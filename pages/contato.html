@@ -5,95 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/contato.css">
     <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/rodape.css">
     <title>Contato</title>
 </head>
 <body>
 
     <!-- Barra de Menu-->
-    <div class="container">
-        <aside>
-
-            <div class="menu">
-                <div class="logo">
-
-                    <a class="fonte1" href="">
-                        <span class="p-projeto">Projeto</span><span class="p-lares">LARES</span>
-                    </a>
-                </div>
-                <div class="menubar">
-                    <a href="home.html">
-                        <h3 class="fonte2">HOME</h3>
-                    </a>
-                    <a href="sobre.html">
-                        <h3 class="fonte2">SOBRE</h3>
-                    </a>
-                    <a href="lares.html">
-                        <h3 class="fonte2">LARES</h3>
-                    </a>
-                    </a>
-                    <a href="contato.html">
-                        <h3 class="fonte2">CONTATO</h3>
-                    </a>
-                    <a href="loginVoluntario.html">
-                        <button class="loginBMenu">Entrar</button>
-                    </a>
-                    <a href="cadastroVoluntario.html">
-                        <button class="loginBMenu">Cadastrar-se</button>
-                    </a>
-                </div>
-            </div>
-        </aside>
-    </div>
-
-<!--Inicio da Sessão 1-->
-    
-    <div class="sessao1">
-        <div class="fonte1">
-            <h1 class="titulo">Nosso Contato</h1>
-            <h3 class="texto">Não perca mais tempo e faça parte dessa imensa rede de apoio.</h3>
+    <nav>
+        <img src="../images/dar-amor.png" class="logo-navbar">
+        <div class="menu">
+            <a href="../pages/home.html" class="ho"><button class="botao-navbar">Home</button></a>
+            <a href="../pages/sobre.html" class="ho"><button class="botao-navbar">Sobre</button></a>
+            <a href="../pages/contato.html" class="ho"><button class="botao-navbar">Contato</button></a>
+            <a href="../pages/loginVoluntario.html" class="ho"><button class="botao-navbar">Entrar</button></a>
         </div>
-        >
-        <div class="sessao4">
-            <div class="imagem-contato">
-                <img src="../images/Charity-rafiki 1.png" img="imagem-sessao1">
-            </div>
-                <div class="formulario">
-                    <form name="formulario-contato">
-                     <label class="titulof"> Nome</label> 
-                        <br><input class="caixa" type="text" name="Nome-contato" size="90"><p>
+    </nav>
 
-                        <label class="titulof"> Email</label> 
-                        <br><input class="caixa" type="text" name="Email-contato" size="90"><p>
-
-                        <label class="titulof">Assunto</label> 
-                        <br><textarea class="caixa2" type="text" name="Assuunto-contato" size="90"></textarea><p>
-
-                        <input class="botaov" type="submit" name="submit-contato" value="Enviar">
-                    </form>
-                </div>
+    <div class="container-3">
+        <div class="form-left">
+            <h1 class="title-right-s2">Entre em contato</h1>
+            <p class="text-right-s2">Texto exemplo</p>
         </div>
+        <form class="form-right">
+            <h1 class="titulo-contato">Formulário de contato</h1>
+            <input type="email" class="form-contato" placeholder="Email">
+            <input type="text" class="form-contato" placeholder="Assunto">
+            <textarea required="" cols="50" rows="10" id="textarea" name="textarea" placeholder="Descrição"></textarea>
+            <button class="contato-enviar" type="submit">Enviar</button>
+        </form>
     </div>
 
 <!-- Incio do rodapé -->
-<footer class="footer-page">
+<footer>
     <div class="footer-left">
-        <a>
-            <span class="p-projeto2">Projeto</span><span class="p-lares2"> LARES</span>
-            
-        </a>
+        <img src="../images/dar-amor.png" class="logo-navbar">
     </div>
     <div class="footer-center">
-        <a>
-            <span class="dev-by">criado e desenvolvido</span><span class="dev-yb"> ABCD</span>
-        </a>
+
     </div>
     <div class="footer-right">
-        <a href="https://www.instagram.com">
-            <img src="../images/icones/instagram icon.png">
-        </a>
-        <a href="https://www.facebook.com">
-            <img src="../images/icones/facebook icon.png">
-        </a>
+        <a href="../pages/home.html" class="ho"><button class="botao-footer">Home</button></a>
+        <a href="../pages/sobre.html" class="ho"><button class="botao-footer">Sobre</button></a>
+        <a href="../pages/contato.html" class="ho"><button class="botao-footer">Contato</button></a>
+        <a href="../pages/loginVoluntario.html" class="ho"><button class="botao-footer">Entrar</button></a>
     </div>
+</footer>
 </body>
 </html>
