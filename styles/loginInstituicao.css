@@ -11,15 +11,9 @@
 }
 
 :root {
-    --preto: #434343;
+    --preto: #1F232F;
     --branco: #FFFCFF;
-    --cinza-claro: #F3F3F3;
-    --tomate: #FE654F;
-    --azul-escuro: #6D98BA;
-    --azul-claro: #BFE1f3;
-    --alt-azul-claro: #ACC4D7;
-    --alt-azul-escuro: #90B1CB;
-    --Marrom: #434343; 
+    --tomate: #1464f8;
 }
 
 html {
@@ -72,78 +66,119 @@ b {
     color: var(--preto);
 }
 
-.containerLogin{
+.container{
     display: flex;
-    flex-direction: column;
-    padding: 50px;
-    place-items: center;
+    width: 100%;
     height: 90vh;
+    justify-content: center;
+    align-items:center;
+    padding-top: 70px;
+    background-image: url("../images/pattern-background.png");
+    background-size:400px;
+    background-repeat: no-repeat;
+    background-position: initial;
+    gap: 0;
 }
 
-.containerLogin .portalV{
-    color:var(--preto);
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.container .box-login{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    align-items:center;
+    gap: 0; 
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
 }
 
-.containerLogin .portalI{
-    color: var(--tomate);
-}
 
-
-.containerLogin .paragrafoPortal{
-    color: var(--preto);
-    font-size: 16px;
-}
-
-.loginForm{
-    padding: 40px;
-    border-radius: 30px;
-    place-items: center;
-    text-align: center;
-    background-color: var(--branco);
-}
-
-.centro-pag{
-    place-items: center;
-}
-
-.formulario-login{
-    padding-top: 20px;
-    margin: 1.5rem;
+.container .left-side{
+    background: var(--branco);
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    place-items: center;
+    justify-content: center;
+    padding: 80px;
+    border-radius: 50px  0px  0px 50px;
+    width: 30vw;
+    height: 60vh;
+    gap: 30px;
 }
 
- 
-.loginBox{ 
-    background-color: var(--cinza-claro);
-    height: 3rem;
-    width: 24rem;
-    border-radius: 1.3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.left-side h1{
+    font-size: 44px;
     color: var(--preto);
 }
 
-.loginBotaoEnviar{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+.container .right-side{
+    background: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 0px  50px  50px 0px;
+    width: 30vw;
+    height: 60vh;
+    gap: 30px;
+}
+
+.right-side h1{
+    font-size: 38px;
     color: var(--branco);
-    background-color: var(--tomate);
-    margin: 2rem;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    width: 9rem;
 }
 
-.loginform .footer-card a{
-    text-decoration: underline;
+.right-side .form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.form-login input{
+    border-color: var(--preto);
+    padding: 20px;
+    width: 350px;
+    border-radius: 50px;
+    color: var(--preto);
+    font-family: 'Roboto',Courier;
+    box-shadow: 0px 5px 10px rgba(38, 38, 39, 0.293);
+}
+
+.form-login .enviar-botao{
+    padding: 1.3em 3em;
+    font-size: 16px;
+    font-weight: 500;
+    width: 150px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-login .enviar-botao:hover{
+    background-color:var(--tomate);
+    box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.form-login .enviar-botao:active {
+    transform: translateY(-1px);
+}
+
+.right-side .cadastro-red{
     color: var(--tomate);
+    margin-left: 8px;
 }
 
+.right-side .instituicao-red{
+    color: var(--tomate);
+    margin-left: 8px;
+}
+
+.right-side span{
+    color: var(--branco);
+}

@@ -18,14 +18,13 @@
 
 html {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;   
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
-    background-color: var(--branco) ;
-    width: 100%;
+    background-color: #F2ECF8;
+    background-size:cover;
     
 }
 
@@ -55,7 +54,6 @@ h3 {
 }
 
 small {
-    color: var(--branco);
     font-size: 0.76rem;
 }
 
@@ -67,21 +65,17 @@ b {
     color: var(--preto);
 }
 
-.container{
+.containerLogin{
     display: flex;
     width: 100%;
-    height: 90vh;
+    height: 108vh;
     justify-content: center;
-    align-items:center;
-    padding-top: 70px;
-    background-image: url("../images/pattern-background.png");
-    background-size:400px;
-    background-repeat: no-repeat;
-    background-position: initial;
+    align-items: center;
     gap: 0;
+    padding-top: 70px;
 }
 
-.container .box-login{
+.containerLogin .box-cadastro{
     display: flex;
     justify-content: center;
     border-radius: 50px;
@@ -90,8 +84,7 @@ b {
     box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
 }
 
-
-.container .left-side{
+.containerLogin .left-card{
     background: var(--branco);
     display: flex;
     flex-direction: column;
@@ -99,16 +92,18 @@ b {
     padding: 80px;
     border-radius: 50px  0px  0px 50px;
     width: 30vw;
-    height: 60vh;
+    height: 90vh;
     gap: 30px;
 }
 
-.left-side h1{
-    font-size: 44px;
+.left-card h1{
+    font-size: 32px;
     color: var(--preto);
+    text-align: center;
+    justify-content: center;
 }
 
-.container .right-side{
+.containerLogin .loginForm{
     background: var(--preto);
     display: flex;
     flex-direction: column;
@@ -117,69 +112,71 @@ b {
     padding: 40px;
     border-radius: 0px  50px  50px 0px;
     width: 30vw;
-    height: 60vh;
+    height: 90vh;
     gap: 30px;
 }
 
-.right-side h1{
-    font-size: 38px;
-    color: var(--branco);
+.loginForm h1{
+    padding-top: 35px;
+    text-align: center;
+    color: #fff;
 }
 
-.right-side .form-login{
+.loginForm p{
+    padding-top: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.formulario-login{
+    padding-top: 30px;
+    margin: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 30px;
+    gap: 25px;
+    place-items: center;
 }
 
-.form-login input{
-    border-color: var(--preto);
-    padding: 20px;
+ 
+.loginBox{ 
+    background-color: white;
+    height: 50px;
     width: 350px;
     border-radius: 50px;
-    color: var(--preto);
+    padding: 20px;
     font-family: 'Roboto',Courier;
-    box-shadow: 0px 5px 10px rgba(38, 38, 39, 0.293);
+    font-weight: 500;
+    color: var(--preto);
 }
 
-.form-login .enviar-botao{
-    padding: 1.3em 3em;
-    font-size: 16px;
+.loginBotaoEnviar{
+    font-family: 'Roboto',Courier;
     font-weight: 500;
-    width: 150px;
-    color: #000;
-    background-color: #fff;
-    border: none;
+    font-size: 16px;
     border-radius: 45px;
+    padding: 16px;
+    width: 144px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
-    outline: none;
 }
 
-.form-login .enviar-botao:hover{
+.loginBotaoEnviar:hover{
     background-color:var(--tomate);
     box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
     color: #fff;
     transform: translateY(-7px);
 }
 
-.form-login .enviar-botao:active {
-    transform: translateY(-1px);
-}
-
-.right-side .cadastro-red{
+.loginForm .cadastro-blue{
     color: var(--tomate);
     margin-left: 8px;
 }
 
-.right-side .instituicao-red{
+.loginForm .instituicao-blue{
     color: var(--tomate);
     margin-left: 8px;
 }
 
-.right-side span{
+.loginForm span{
     color: var(--branco);
 }

@@ -11,15 +11,9 @@
 }
 
 :root {
-    --preto: #434343;
+    --preto: #1F232F;
     --branco: #FFFCFF;
-    --cinza-claro: #F3F3F3;
-    --tomate: #FE654F;
-    --azul-escuro: #6D98BA;
-    --azul-claro: #BFE1f3;
-    --alt-azul-claro: #ACC4D7;
-    --alt-azul-escuro: #90B1CB;
-    --Marrom: #434343; 
+    --tomate: #1464f8;
 }
 
 html {
@@ -29,8 +23,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--preto);
-    background-color: var(--branco);
-    background-image:url(../images/img_voluntario_login.jpg);
+    background-color: #F2ECF8;
     background-size:cover;
     
 }
@@ -74,43 +67,70 @@ b {
 
 .containerLogin{
     display: flex;
+    width: 100%;
+    height: 108vh;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding-top: 70px;
+}
+
+.containerLogin .box-cadastro{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    align-items:center;
+    gap: 0; 
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+}
+
+.containerLogin .left-card{
+    background: var(--branco);
+    display: flex;
     flex-direction: column;
-    padding: 50px;
-    place-items: center;
+    justify-content: center;
+    padding: 80px;
+    border-radius: 50px  0px  0px 50px;
+    width: 30vw;
     height: 90vh;
+    gap: 30px;
 }
 
-.containerLogin .portalV{
-    color:var(--preto);
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.containerLogin .portalI{
-    color: var(--azul-escuro);
-}
-
-
-.containerLogin .paragrafoPortal{
+.left-card h1{
+    font-size: 32px;
     color: var(--preto);
-    font-size: 16px;
-}
-
-.loginForm{
-    padding: 40px;
-    border-radius: 30px;
-    place-items: center;
     text-align: center;
-    background-color: var(--branco);
+    justify-content: center;
 }
 
-.centro-pag{
-    place-items: center;
+.containerLogin .loginForm{
+    background: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 0px  50px  50px 0px;
+    width: 30vw;
+    height: 90vh;
+    gap: 30px;
+}
+
+.loginForm h1{
+    padding-top: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.loginForm p{
+    padding-top: 25px;
+    text-align: center;
+    color: #fff;
 }
 
 .formulario-login{
-    padding-top: 20px;
-    margin: 1.5rem;
+    padding-top: 30px;
+    margin: 16px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -119,31 +139,50 @@ b {
 
  
 .loginBox{ 
-    background-color: var(--cinza-claro);
-    height: 3rem;
-    width: 24rem;
-    border-radius: 1.3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    height: 50px;
+    width: 350px;
+    border-radius: 50px;
+    padding: 20px;
+    font-family: 'Roboto',Courier;
     font-weight: 500;
     color: var(--preto);
 }
 
 .loginBotaoEnviar{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',Courier;
     font-weight: 500;
     font-size: 16px;
+    border-radius: 45px;
+    padding: 16px;
+    width: 144px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.loginBotaoEnviar:hover{
+    background-color:var(--tomate);
+    box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.loginForm .cadastro-blue{
+    color: var(--tomate);
+    margin-left: 8px;
+}
+
+.loginForm .instituicao-blue{
+    color: var(--tomate);
+    margin-left: 8px;
+}
+
+.loginForm span{
     color: var(--branco);
-    background-color: var(--azul-escuro);
-    margin: 2rem;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    width: 9rem;
 }
 
-.loginform .footer-card a{
-    text-decoration: underline;
-    color: var(--azul-escuro);
+.left-card img{
+    width: 700px;
+    height: 700px;
+    margin-left: -7.2917vw;
 }
-
