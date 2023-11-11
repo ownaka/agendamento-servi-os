@@ -101,6 +101,7 @@ b {
     color: var(--preto);
     text-align: center;
     justify-content: center;
+    padding-top: 45px;
 }
 
 .containerLogin .loginForm{
@@ -117,6 +118,7 @@ b {
 }
 
 .loginForm h1{
+    font-size: 32px;
     padding-top: 35px;
     text-align: center;
     color: #fff;
@@ -179,4 +181,10 @@ b {
 
 .loginForm span{
     color: var(--branco);
+}
+
+.left-card img {
+    width: 700px;
+    height: 700px;
+    margin-left: -7.2917vw;
 }
