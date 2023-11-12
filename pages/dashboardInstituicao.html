@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/dashboardInstituicao.css">
+        <link rel="stylesheet" href="../styles/menu.css">
+        <link rel="stylesheet" href="../styles/rodape.css">
+        <script defer src="../js/dashMenuVolun.js" ></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- Barra de Menu-->
+    <nav>
+        <img src="../images/dar-amor.png" class="logo-navbar">
+        <div class="menu">
+            <a href="../pages/home.html" class="ho"><button class="botao-navbar">Home</button></a>
+            <a href="../pages/sobre.html" class="ho"><button class="botao-navbar">Sobre</button></a>
+            <a href="../pages/contato.html" class="ho"><button class="botao-navbar">Contato</button></a>
+            <a href="../pages/loginVoluntario.html" class="ho"><button class="botao-navbar">Entrar</button></a>
+        </div>
+    </nav>
+    <!--dashBoard-->
+    <div class="container">
+        <div class="cardperfil">
+            <img src="../images/tutter.jpg" alt="">
+            <div class="perfil-menu">
+                <span href="" class="texto-perfil-nome">INSTITUIÇÃO</p>
+                <div class="perfil-cargos">
+                <span href="" class="cargo-perfil">CARGO</span>
+                <span href="" class="cargo-perfil">CARGO</span>
+                </div>
+            </div>
+            <div class="menu-perfil">
+                <button id="carTickets" class="texto-perfil-menu"><i class="fi fi-br-envelope"></i>Tickets</button>
+                <button id="carMeusTickets" class="texto-perfil-menu" href="#"><i class="fi fi-br-home"></i>Meus Tickets</button> 
+                <button id="carCriarTicket" class="texto-perfil-menu" href="#"><i class="fi fi-br-home"></i>Criar Ticket</button> 
+                <button id="carEditPerfil" class="texto-perfil-menu" href="#"><i class="fi fi-br-pencil"></i>Editar Perfil</button> 
+                <button id="carConfiguracao"id="carMeusTickets" class="texto-perfil-menu" href="#"><i class="fi fi-br-settings"></i>Configurações</button> 
+                <button class="texto-perfil-menu" href="#"><i class="fi fi-br-sign-in-alt"></i>Sair</button>    
+            </div>
+        </div>
+
+        <!-- CARD GERAL-->
+        <div class="card-g">
+            <div class="mensagem-padrao">
+                <h1>Seja bem vindo!</h1>
+            </div>
+
+            <div class="meusTickets-menu">
+                <div class="ticket-holder">
+                    <div class="cabecalho">
+                        <h2>Meus Tickets</h2>
+                    </div>
+                    <div class="rodape">
+                        <h2>Nome Instituição</h2>          
+                        <h2>00/00/0000</h2>
+                        <h2>Assunto</h2>
+                        <h2>Descrição Breve</h2>
+                        <button class="BotaoPendente" type="button">Pendente</button> <button class="BotaoPendenteEditar" type="button">Editar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ge-Tickets-menu">
+                <div class="ticket-holder">
+                    <div class="cabecalho">
+                        <h2>Tickets Gerais Tcket</h2>
+                    </div>
+                    <div class="rodape">
+                        <h2>Nome Instituição</h2>          
+                        <h2>00/00/0000</h2>
+                        <h2>Assunto</h2>
+                        <h2>Descrição Breve</h2>
+                        <button class="BotaoPendente" type="button">Pendente</button> <button class="BotaoPendenteEditar" type="button">Editar</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="editar-perfil-menu">
+                <div class="editar-perfil">
+                    <form class="form-edit-perfil">
+                        <input class="loginBox" type="text" placeholder="Digite seu CNPJ">
+                        <input class="loginBox" type="email" placeholder="Digite seu email">
+                        <input class="loginBox" type="tel" placeholder="Digite seu telefone">
+                        <input class="loginBox" type="password" placeholder="Digite sua Senha">
+                        <input class="loginBox" type="password" placeholder="Confirme sua Senha">
+                        <button class="loginBotaoEnviar" type="button">Entrar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="configuracoes-menu">
+                <div class="conta-config">
+                    <h2 class=title">Conta</h2>
+                    <button class="desabilitar-conta">Desabilitar Conta</button>
+                </div>
+                <div class="conta-config">
+                    <h2 class=title">Personalizar</h2>
+                    <button class="desabilitar-conta">Darkmode</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Incio do rodapé -->
+    <footer>
+        <div class="footer-left">
+            <img src="../images/dar-amor.png" class="logo-navbar">
+        </div>
+        <div class="footer-center">
+
+        </div>
+        <div class="footer-right">
+            <a href="../pages/home.html" class="ho"><button class="botao-footer">Home</button></a>
+            <a href="../pages/sobre.html" class="ho"><button class="botao-footer">Sobre</button></a>
+            <a href="../pages/contato.html" class="ho"><button class="botao-footer">Contato</button></a>
+            <a href="../pages/loginVoluntario.html" class="ho"><button class="botao-footer">Entrar</button></a>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #1F232F;
+    --branco: #FFFCFF;
+    --tomate: #1464f8;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;   
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--preto);
+    background-color: var(--branco) ;
+    width: 100%;
+}
+
+a {
+    color: var(--preto);
+}
+
+image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 0.87rem;
+}
+
+small {
+    font-size: 0.76rem;
+}
+
+p {
+    color: var(--preto);
+}
+
+b {
+    color: var(--preto);
+}
+
+i{
+    color: #1F232F;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    padding-top: 90px;
+}
+
+.container .cardperfil{
+    background-color: var(--gelo);
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    min-width: fit-content;
+    margin: 40px;
+    border-radius: 30px;
+    margin-right: -10px;
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+}
+
+.container .cardperfil img{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 100%;
+    background-size: cover;
+    align-self: center;
+}
+
+.container .cardperfil .perfil-menu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.container .cardperfil .menu-perfil{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 5px;
+}
+
+.container .cardperfil .menu-perfil .texto-perfil-menu{
+    padding: 1.3em 3em;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    min-width: fit-content;
+    color: var(--preto);
+    background-color: var(--branco);
+    border: none;
+    text-align: left;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.container .cardperfil .texto-perfil-menu:hover{
+    background-color:var(--tomate);
+    box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+    color: var(--branco);
+    transform: translateY(-7px);
+}
+
+.container .cardperfil .texto-perfil-menu:active {
+    transform: translateY(-1px);
+}
+
+.container .cardperfil .texto-perfil-menu i{
+    margin-right: 15px;
+}
+
+.cardperfil .perfil-cargos{
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardperfil .perfil-cargos .cargo-perfil{
+    display: flex;
+    font-size: 12px;
+    margin: 4px;
+    padding: 8px;
+    padding-top: -5px;
+    padding-bottom: -5px;
+    gap: 10px;
+    background: var(--preto);
+    color: var(--branco);
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50px;
+    width: fit-content;
+    height: max-content;
+    min-height: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
+    max-width: fit-content;
+}
+
+.container .card-g{
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px;
+    padding-top: 30px;
+    padding: 5%;
+    border-radius: 30px;
+    gap: 20px;
+    box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
+}
+
+.mensagem-padrao{
+    display: block;
+}
+
+.ge-Tickets-menu{
+    display: none;
+    flex-direction: column;
+    background: var(--preto);
+    padding: 3%;
+    color: var(--branco);
+    border-radius: 40px;
+
+}
+
+.ge-Tckets-menu .ticket-holder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.meusTickets-menu{
+    display: none;
+    flex-direction: column;
+    background: var(--preto);
+    padding: 3%;
+    color: var(--branco);
+    border-radius: 40px;
+}
+
+.editar-perfil-menu{
+    display: none;
+    flex-direction: column;
+
+}
+
+.configuracoes-menu{
+    display: none;
+    flex-direction: column;
+
+}
