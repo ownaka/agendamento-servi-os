@@ -19,11 +19,11 @@ Em um mundo cada vez mais interconectado, a solidariedade e a colaboração se t
 - **Uma visão sem fins lucrativos com benefícios incalculáveis:** O Projeto Lares nasceu como um projeto de faculdade, resultado da paixão de estudantes que acreditam no poder da solidariedade. Acreditamos que, juntos, podemos moldar um mundo mais justo e solidário. Esta iniciativa representa nosso compromisso em transformar essa visão em realidade.
   
 
-## 📜 Nossa história
+### 📜 Nossa história
 
 Embora o Projeto Lares seja uma iniciativa inicialmente acadêmica, nossa ambição é torná-lo uma realidade duradoura e impactante após a conclusão do projeto de faculdade. Acreditamos que essa ideia tem um valor inestimável e um potencial imenso para criar mudanças positivas significativas em nossa comunidade e além.
 
-## ❓ Lar?
+### ❓ Lar?
 
 A ideia do nome veio na verdade da etimologia da palavra **“lar”** descrita na [Wiki](https://pt.wikipedia.org/wiki/Lares) e que tem origem no latim **“Lar, Laris”**, que se refere aos **deuses romanos protetores de um domicílio**. Portanto, o conceito de **lar** está profundamente ligado à ideia de **proteção, aconchego e convivência familiar**, que é o que procuramos tornar as casas de apoio, e fazer um gigantesca familia e rede de proteção e ajuda.
 
@@ -50,5 +50,9 @@ Nós do Projeto Lares estamos comprometidos com a acessibilidade, e queremos que
   
 - Authoring Tool Accessibility Guidelines - [ATAG](https://www.w3.org/WAI/standards-guidelines/atag/)
   
-
 Acreditamos que para que a ajude chegue a todos ela precisa inicialmente ser acessivel a todos, caso queira saber mais sobre como está o progresso dessa inclusão [acesse aqui.](www.google.com.br)
+
+# Desenvolvimento
+Se quiser mais sobre ferramentas utilizadas, metodologis, organograma do projeto e relatórios.
+- [Acesse essa pagina](www.teste.com)
+
