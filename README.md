@@ -2,8 +2,6 @@
 
 # Projeto Lares
 
----
-
 Em um mundo cada vez mais interconectado, a solidariedade e a colaboração se tornaram elementos cruciais para impulsionar o progresso da sociedade. Felizmente, em meio a essa busca por um mundo melhor, surgem inumeras iniciativas notáveis que desempenham um papel fundamental na promoção do bem-estar coletivo. Uma dessas iniciativas é o Projeto Lares, uma organização sem fins lucrativos que se dedica a auxiliar outras instituições, permitindo que elas postem suas demandas e que pessoas altruístas possam contribuir voluntariamente para supri-las.
 
 > O Projeto Lares é mais do que um simples site; é um elo entre organizações que buscam ajuda e indivíduos dispostos a oferecer seu tempo, habilidades e recursos para causas nobres. Vamos explorar como essa iniciativa funciona e como ela está transformando vidas de maneira significativa.
@@ -31,8 +29,6 @@ A ideia do nome veio na verdade da etimologia da palavra **“lar”** descrita
 
 # 🤝 Como posso ajudar?
 
----
-
 ### 🙋‍♀️ Voluntários
 
 Nosso projeto atuamente está em fase de teste e prototipagem, futuramente já será póssivel fazer seu cadastro e começar a fazer a diferênça na vida de inumeras familias e lares.
@@ -43,8 +39,6 @@ Para as instituições que quiserem se cadastrar e receber ajuda, estamos trabal
 As instituições que quiserem ajudar e saber mais sobre o projeto e/ou dar ideias podem nos enviar um email atráves desse endereço: projetolares@gmail.com
 
 # ♿ Acessibilidade
-
----
 
 > "O poder da Web está na sua universalidade. O acesso de todos, independente da limitação,é um aspecto essencial." _( Tim Berners Lee )_
 
