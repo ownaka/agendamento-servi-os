@@ -1,12 +1,12 @@
 <p align="center"><img src="images/dar-amor.png" alt="MarkText" width="100" height="100"></p>
 
-# Projeto Lares
+<h1 align="center">Projeto Lares</h1>
 
 Em um mundo cada vez mais interconectado, a solidariedade e a colaboração se tornaram elementos cruciais para impulsionar o progresso da sociedade. Felizmente, em meio a essa busca por um mundo melhor, surgem inumeras iniciativas notáveis que desempenham um papel fundamental na promoção do bem-estar coletivo. Uma dessas iniciativas é o Projeto Lares, uma organização sem fins lucrativos que se dedica a auxiliar outras instituições, permitindo que elas postem suas demandas e que pessoas altruístas possam contribuir voluntariamente para supri-las.
 
 > O Projeto Lares é mais do que um simples site; é um elo entre organizações que buscam ajuda e indivíduos dispostos a oferecer seu tempo, habilidades e recursos para causas nobres. Vamos explorar como essa iniciativa funciona e como ela está transformando vidas de maneira significativa.
 
-![banner](//images/Projeto%20Lares_Banner.png)
+<p align="center"><img src="images/Projeto Lares_Banner.png" alt="MarkText"></p>
 
 - **Uma ponte entre necessidades e doadores:** A essência do Projeto Lares está em seu papel intermediário. Ele fornece um espaço virtual onde instituições sem recursos ou com demandas específicas podem postar suas necessidades de forma transparente e organizada. Isso pode incluir desde organizações que necessitam de apoio financeiro para projetos sociais até aquelas que buscam voluntários com habilidades específicas, como professores, médicos, advogados, designers, programadores, entre outros.
   
