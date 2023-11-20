@@ -6,7 +6,7 @@ Em um mundo cada vez mais interconectado, a solidariedade e a colaboração se t
 
 > O Projeto Lares é mais do que um simples site; é um elo entre organizações que buscam ajuda e indivíduos dispostos a oferecer seu tempo, habilidades e recursos para causas nobres. Vamos explorar como essa iniciativa funciona e como ela está transformando vidas de maneira significativa.
 
-![banner](//images/Projeto%20Lares_Banner.png)
+<p align="center"><img src="images/Projeto Lares_Banner.png" alt="MarkText"></p>
 
 - **Uma ponte entre necessidades e doadores:** A essência do Projeto Lares está em seu papel intermediário. Ele fornece um espaço virtual onde instituições sem recursos ou com demandas específicas podem postar suas necessidades de forma transparente e organizada. Isso pode incluir desde organizações que necessitam de apoio financeiro para projetos sociais até aquelas que buscam voluntários com habilidades específicas, como professores, médicos, advogados, designers, programadores, entre outros.
   
