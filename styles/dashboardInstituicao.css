@@ -191,6 +191,13 @@ i{
     display: block;
 }
 
+.meusTickets-menu{
+    background: var(--preto);
+    padding: 3%;
+    color: var(--branco);
+    border-radius: 40px;
+}
+
 .ge-Tickets-menu{
     background: var(--preto);
     padding: 3%;
@@ -233,8 +240,8 @@ i{
 .rodape-end .BotaoEditar{
     align-self: end;
     margin-top: -22px;
-    color: #000;
-    background-color: #fff;
+    color: var(--preto);
+    background-color: var(--branco);
     border-radius: 45px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -246,10 +253,122 @@ i{
 .rodape-end .BotaoEditar:hover{
     background-color:var(--tomate);
     box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
-    color: #fff;
+    color: var(--branco);
     transform: translateY(-7px);
 }
 
 .rodape-end .BotaoEditar:active{
+    transform: translateY(-1px);
+}
+
+.editar-perfil-menu{
+    background: var(--preto);
+    padding: 3%;
+    color: var(--branco);
+    border-radius: 40px;
+    width: 35vw;
+    height: 25vw;
+    margin-left: 15vw;
+}
+
+.form-edit-perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+}
+
+.form-edit-perfil .loginBox{
+    align-self: center;
+    border-color: var(--preto);
+    padding: 10px;
+    border-radius: 50px;
+    color: var(--preto);
+    font-family: 'Roboto',Courier;
+    width: 20vw;
+}
+
+.form-edit-perfil .loginBotaoEnviar{
+    align-self: center;
+    margin-top: 12px;
+    color: var(--preto);
+    background-color: var(--branco);
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: 5vw;
+    height: 2vw;
+}
+
+.form-edit-perfil .loginBotaoEnviar:hover{
+    background-color:var(--tomate);
+    box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+    color: var(--branco);
+    transform: translateY(-7px);
+}
+
+.form-edit-perfil .loginBotaoEnviar:active{
+    transform: translateY(-1px);
+}
+
+.configuracoes-menu{
+    background: var(--preto);
+    padding: 3%;
+    color: var(--branco);
+    border-radius: 40px;
+}
+
+.conta-config{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conta-config .title{
+    align-self: baseline;
+}
+
+.conta-config .desabilitar-conta{
+    color: var(--preto);
+    background-color: var(--branco);
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: 8vw;
+    height: 40px;
+}
+
+.conta-config .desabilitar-conta:hover{
+    background-color: red;
+    box-shadow: 0px 15px 20px rgba(221, 43, 19, 0.4);
+    color: var(--branco);
+    transform: translateY(-7px);
+}
+
+.conta-config .desabilitar-conta:active{
+    transform: translateY(-1px);
+}
+
+.conta-config .darkmode{
+    color: var(--preto);
+    background-color: var(--branco);
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: 5vw;
+    height: 40px;
+}
+
+.conta-config .darkmode:hover{
+    background-color: #0b116a;
+    box-shadow: 0px 15px 20px rgba(19, 22, 221, 0.4);
+    color: var(--branco);
+    transform: translateY(-7px);
+}
+
+.conta-config .darkmode:active{
     transform: translateY(-1px);
 }
