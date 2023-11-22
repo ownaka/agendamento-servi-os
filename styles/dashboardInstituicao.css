@@ -266,9 +266,13 @@ i{
     padding: 3%;
     color: var(--branco);
     border-radius: 40px;
-    width: 35vw;
-    height: 25vw;
+    width: 30vw;
+    height: 26vw;
     margin-left: 15vw;
+}
+
+.editar-perfil-menu h2{
+    text-align: center;
 }
 
 .form-edit-perfil{
