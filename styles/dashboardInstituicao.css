@@ -178,12 +178,10 @@ i{
 
 .container .card-g{
     background-color: var(--branco);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    width: 100vw;
     margin: 40px;
     padding-top: 30px;
-    padding: 5%;
+    padding: 5vw;
     border-radius: 30px;
     gap: 20px;
     box-shadow: 0px 10px 20px rgba(38, 38, 39, 0.4);
@@ -194,38 +192,64 @@ i{
 }
 
 .ge-Tickets-menu{
-    display: none;
-    flex-direction: column;
     background: var(--preto);
     padding: 3%;
     color: var(--branco);
     border-radius: 40px;
-
 }
 
-.ge-Tckets-menu .ticket-holder{
+.ticket-holder{
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
 }
 
-.meusTickets-menu{
-    display: none;
-    flex-direction: column;
-    background: var(--preto);
-    padding: 3%;
-    color: var(--branco);
-    border-radius: 40px;
+.ticket-holder .texto-ticket{
+    align-self: baseline;
 }
 
-.editar-perfil-menu{
-    display: none;
-    flex-direction: column;
-
+.ticket-holder .data-ticket{
+    align-self: end;
+    margin-top: -22px
 }
 
-.configuracoes-menu{
-    display: none;
+.rodape{
+    display: flex;
     flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+}
 
+.rodape-end{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-end .BotaoPendente{
+    margin-left: 54vw;
+    color: green;
+}
+
+.rodape-end .BotaoEditar{
+    align-self: end;
+    margin-top: -22px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: 5vw;
+    height: 2vw;
+}
+
+.rodape-end .BotaoEditar:hover{
+    background-color:var(--tomate);
+    box-shadow: 0px 15px 20px rgba(19, 73, 221, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.rodape-end .BotaoEditar:active{
+    transform: translateY(-1px);
 }
