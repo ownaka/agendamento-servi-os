@@ -28,14 +28,14 @@
         <div class="loginForm">
             <h1>Cadastro do Voluntáriado</h1>
             <p>Não perca tempo e faça já parte dessa imensa rede de apoio</p>
-                    <form class="formulario-login">
-                        <input class="loginBox" type="text" placeholder="Digite seu Nome">
-                        <input class="loginBox" type="text" placeholder="Digite seu CPF">
-                        <input class="loginBox" type="email" placeholder="Digite seu email">
-                        <input class="loginBox" type="tel" placeholder="Digite seu telefone">
-                        <input class="loginBox" type="password" placeholder="Digite sua Senha">
-                        <input class="loginBox" type="password" placeholder="Confirme sua Senha">
-                        <button class="loginBotaoEnviar" type="button">Entrar</button>
+                    <form class="formulario-login" method="post" action="../config/cadastro-voluntario.php">
+                        <input class="loginBox" type="text" placeholder="Digite seu Nome" name="nome" id="nome">
+                        <input class="loginBox" type="text" placeholder="Digite seu CPF" name="cpf" id="cpf">
+                        <input class="loginBox" type="email" placeholder="Digite seu email" name="email" id="email">
+                        <input class="loginBox" type="tel" placeholder="Digite seu telefone" name="telefone" id="telefone">
+                        <input class="loginBox" type="password" placeholder="Digite sua Senha" name="senha" id="senha">
+                        <input class="loginBox" type="password" placeholder="Confirme sua Senha" name="confirmar_senha" id="confirmar_senha">
+                        <button class="loginBotaoEnviar" type="submit" name="submit" id="submit">Entrar</button>
                     </form>
                         <span>Já tem uma conta?,<a href="../pages/loginVoluntario.html" class="cadastro-blue">clique aqui!</a></span>
                         <span>É uma instituição?<a href="../pages/cadastroInstituicao.html" class="instituicao-blue">Entre aqui</a></span>
