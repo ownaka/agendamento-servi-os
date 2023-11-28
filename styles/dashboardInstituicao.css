@@ -196,6 +196,7 @@ i{
     padding: 3%;
     color: var(--branco);
     border-radius: 40px;
+    display: none;
 }
 
 .ge-Tickets-menu{
@@ -203,6 +204,7 @@ i{
     padding: 3%;
     color: var(--branco);
     border-radius: 40px;
+    display: none;
 }
 
 .ticket-holder{
@@ -266,6 +268,7 @@ i{
     padding: 3%;
     color: var(--branco);
     border-radius: 40px;
+    display: none;
 }
 
 .criar-tickets .ticket-holder{
@@ -341,6 +344,7 @@ i{
     width: 30vw;
     height: 26vw;
     margin-left: 15vw;
+    display: none;
 }
 
 .editar-perfil-menu h2{
@@ -393,6 +397,7 @@ i{
     padding: 3%;
     color: var(--branco);
     border-radius: 40px;
+    display: none;
 }
 
 .conta-config{
