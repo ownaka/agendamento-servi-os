@@ -350,7 +350,7 @@ i{
 .form-edit-perfil{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     padding: 20px;
 }
 
