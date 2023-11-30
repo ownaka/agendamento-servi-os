@@ -1,5 +1,4 @@
 <?php
-$erro = '';
 if(isset($_POST['submit']))
 {
     include_once('config.php');
@@ -9,33 +8,78 @@ if(isset($_POST['submit']))
     $email = $_POST['email'];
     $senha = $_POST['senha'];
     $telefone = $_POST['telefone'];
+    $confirmar_senha = $_POST['confirme_senha'];
+
+    $erro = '';
 
     // Verifique se algum dos campos está vazio
     if(empty($nome) || empty($cnpj) || empty($email) || empty($senha) || empty($telefone)) {
-        $erro = "Por favor, preencha todos os campos.";
-        
+        $erro .= "<div>Por favor, preencha todos os campos.</div>";
     } 
+
     // Adicione suas validações aqui. Por exemplo:
     else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $erro = "Formato de e-mail inválido.";
-        
+        $erro .= "<div>Formato de e-mail inválido.</div>";
     }
-    else if (!preg_match("/^[a-zA-Z-' ]*$/",$nome)) {
-        $erro = "Apenas letras e espaços em branco permitidos no nome.";
-        
-    }
-    else if (!is_numeric($telefone)) {
-        $erro = "Apenas números são permitidos no telefone.";
-        
-    }
-    else {
-        $result = mysqli_query($conexao, "INSERT INTO instituicao(nome,cnpj,email,telefone,senha) 
-        VALUES ('$cnpj','$email','$telefone','$senha','$nome')");
-        header('Location: ../pages/loginInstituicao.html');
 
+    if (empty($nome)) {
+        $erro .= "<div>O nome é obrigatório.</div>";
+    } else if (!preg_match("/^[a-zA-Z-' ]*$/",$nome)) {
+        $erro .= "<div>Apenas letras e espaços em branco são permitidos no campo nome.</div>";
+    } else if (strlen($nome) < 2) {
+        $erro .= "<div>O nome deve ter pelo menos 2 caracteres.</div>";
+    } else if (strlen($nome) > 50) {
+        $erro .= "<div>O nome deve ter no máximo 50 caracteres.</div>";
+    }
+
+    else if (!is_numeric($telefone)) {
+        $erro .= "<div>Apenas números são permitidos no telefone.</div>";
+    }
+
+    if (strlen($senha) < 8) {
+        $erro .= "<div>A senha deve ter pelo menos 8 caracteres.</div>";
+    } else if (!preg_match("#[0-9]+#", $senha)) {
+        $erro .= "<div>A senha deve conter pelo menos um número.</div>";
+    } else if (!preg_match("#[a-zA-Z]+#", $senha)) {
+        $erro .= "<div>A senha deve conter pelo menos uma letra.</div>";
+    } else if (!preg_match("#[A-Z]+#", $senha)) {
+        $erro .= "<div>A senha deve conter pelo menos uma letra maiúscula.</div>";
+    } else if (!preg_match("#[a-z]+#", $senha)) {
+        $erro .= "<div>A senha deve conter pelo menos uma letra minúscula.</div>";
+    } else if (!preg_match("/[\'^£$%&*()}{@#~?><>,|=_+!-]/", $senha)) {
+        $erro .= "<div>A senha deve conter pelo menos um caractere especial.</div>";
+    } else if ($senha != $confirmar_senha) {
+        $erro .= "<div>As senhas não correspondem.</div>";
+    }
+
+    if (!preg_match("/^[0-9]{2}\.[0-9]{3}\.[0-9]{3}\/[0-9]{4}\-[0-9]{2}$/", $cnpj)) {
+        echo "Formato de CNPJ inválido.";
+    } else {
+        $cnpj = preg_replace( '/[^0-9]/', '', $cnpj );
+        $cnpj = str_pad($cnpj, 14, '0', STR_PAD_LEFT);
+    
+        if (strlen($cnpj) != 14) {
+            echo "CNPJ inválido.";
+        } else if (preg_match("/^{$cnpj[0]}{14}$/", $cnpj)) {
+            echo "CNPJ inválido.";
+        } else {
+            for ($t = 12; $t < 14; $t++) {
+                for ($d = 0, $p = $t; $p > 1; $p--, $d += $cnpj[$t - $p] * $p);
+                for ($p = 9, $d += $cnpj[$t - $p] * $p; $p > 1; $p--, $d += $cnpj[$t - $p] * $p);
+                if ($cnpj[$t] != ($d = ((10 * $d) % 11) % 10)) echo "CNPJ inválido.";
+            }
+            echo "CNPJ válido!";
+        }
+    }
+
+    if(empty($erro)) {
+        $senha = password_hash($senha, PASSWORD_DEFAULT);
+        $stmt = $conexao->prepare("INSERT INTO instituicao(cnpj,nome,email,telefone,senha) VALUES (?, ?, ?, ?, ?)");
+        $stmt->bind_param("sssss", $cnpj, $nome, $email, $telefone, $senha);
+        $stmt->execute();
+        header('Location: ../pages/loginInstituicao.html');
+    } else {
+        echo $erro;
     }
 }
 ?>
-
-<!-- Seu formulário HTML aqui -->
-
