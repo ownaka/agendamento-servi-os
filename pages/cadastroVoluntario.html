@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="../styles/cadastroVoluntário.css">
         <link rel="stylesheet" href="../styles/menu.css">
         <link rel="stylesheet" href="../styles/rodape.css">
+        <script src="../js/validarCadastro.js" defer></script>
         <title>Cadastro do voluntário</title>
     </head>
     <body>
@@ -28,7 +29,7 @@
         <div class="loginForm">
             <h1>Cadastro do Voluntáriado</h1>
             <p>Não perca tempo e faça já parte dessa imensa rede de apoio</p>
-                    <form class="formulario-login" method="post" action="../config/cadastro-voluntario.php">
+                    <form class="formulario-login" method="post" action="../config/cadastro-voluntario.php" id="form">
                         <input class="loginBox" type="text" placeholder="Digite seu Nome" name="nome" id="nome">
                         <input class="loginBox" type="text" placeholder="Digite seu CPF" name="cpf" id="cpf">
                         <input class="loginBox" type="email" placeholder="Digite seu email" name="email" id="email">

@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="../styles/loginInstituicao.css">
         <link rel="stylesheet" href="../styles/menu.css">
         <link rel="stylesheet" href="../styles/rodape.css">
+        <script src="../js/validarLOGINS.js" defer></script>
         <title>Projeto Lares</title>
     </head>
     <body>
@@ -27,10 +28,10 @@
         </div>
         <div class="right-side">
             <h1 class="login-title">Login Institucional</h1>
-            <form autocomplete="off" class="form-login">
-                <input type="text" class="login-box" id="email" placeholder="Usuário">
+            <form autocomplete="off" class="form-login" id="form">
+                <input type="text" class="login-box" id="nome" placeholder="Usuário">
                 <small id="textEmail"></small>
-                <input type="text" class="password-box" id="password" placeholder="Senha">
+                <input type="text" class="password-box" id="senha" placeholder="Senha">
                 <small id="textPassword"></small>
                 <button type="submit" class="enviar-botao">Entrar</button>
                 <small id="textForm"></small>

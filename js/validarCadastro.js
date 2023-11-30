@@ -1,6 +1,6 @@
 const form = document.querySelector("#form");
 const nameInput = document.querySelector("#nome");
-const cnpjInput = document.querySelector("#cnpj");
+const cpfInput = document.querySelector("#cpf");
 const emailInput = document.querySelector("#email");
 const telefoneInput = document.querySelector("#telefone");
 const senhaInput = document.querySelector("#senha");
@@ -14,8 +14,8 @@ form.addEventListener("submit", (event) =>{
       return;
     }
 
-    if(!validacnpj(cnpjInput.value, 14)){
-      alert("CNPJ inválido.");
+    if(!validacpf(cpfInput.value, 11)){
+      alert("CPF inválido.");
       return;
     }
 
@@ -63,8 +63,8 @@ function validaSenha(senha, minDigits){
   return false;
  }
 
-function validacnpj(cnpj, minDigits){
-  if(cnpj.length === minDigits){
+function validacpf(cpf, minDigits){
+  if(cpf.length === minDigits){
      return true;
   }
  
