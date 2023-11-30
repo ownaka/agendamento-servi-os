@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../styles/loginInstituicao.css">
         <link rel="stylesheet" href="../styles/menu.css">
         <link rel="stylesheet" href="../styles/rodape.css">
-        <script src="../js/validarLOGINS.js" defer></script>
+       
         <title>Projeto Lares</title>
     </head>
     <body>
@@ -28,12 +28,12 @@
         </div>
         <div class="right-side">
             <h1 class="login-title">Login Institucional</h1>
-            <form autocomplete="off" class="form-login" id="form">
-                <input type="text" class="login-box" id="nome" placeholder="Usuário">
+            <form autocomplete="off" class="form-login" id="form" action="../config/testLoginInstituicao.php" method="post">
+                <input type="text" class="login-box" name="cnpj"id="cnpj" placeholder="Usuário">
                 <small id="textEmail"></small>
-                <input type="text" class="password-box" id="senha" placeholder="Senha">
+                <input type="password" class="password-box" name="senha" id="senha" placeholder="Senha">
                 <small id="textPassword"></small>
-                <button type="submit" class="enviar-botao">Entrar</button>
+                <button type="submit" name="submit" id="submit" class="enviar-botao">Entrar</button>
                 <small id="textForm"></small>
             </form>
             <span>Não tem uma conta?<a href="../pages/cadastroInstituicao.html" class="cadastro-red">Cadastre-se.</a></span>

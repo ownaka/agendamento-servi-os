@@ -9,6 +9,8 @@ if(isset($_POST['submit']))
     $senha = $_POST['senha'];
     $telefone = $_POST['telefone'];
     $confirmar_senha = $_POST['confirme_senha'];
+    
+    
 
     $erro = '';
 
@@ -50,30 +52,29 @@ if(isset($_POST['submit']))
         $erro .= "<div>A senha deve conter pelo menos um caractere especial.</div>";
     } else if ($senha != $confirmar_senha) {
         $erro .= "<div>As senhas não correspondem.</div>";
+    } else {
+        
     }
 
-    if (!preg_match("/^[0-9]{2}\.[0-9]{3}\.[0-9]{3}\/[0-9]{4}\-[0-9]{2}$/", $cnpj)) {
-        echo "Formato de CNPJ inválido.";
-    } else {
-        $cnpj = preg_replace( '/[^0-9]/', '', $cnpj );
-        $cnpj = str_pad($cnpj, 14, '0', STR_PAD_LEFT);
     
-        if (strlen($cnpj) != 14) {
-            echo "CNPJ inválido.";
-        } else if (preg_match("/^{$cnpj[0]}{14}$/", $cnpj)) {
-            echo "CNPJ inválido.";
-        } else {
-            for ($t = 12; $t < 14; $t++) {
-                for ($d = 0, $p = $t; $p > 1; $p--, $d += $cnpj[$t - $p] * $p);
-                for ($p = 9, $d += $cnpj[$t - $p] * $p; $p > 1; $p--, $d += $cnpj[$t - $p] * $p);
-                if ($cnpj[$t] != ($d = ((10 * $d) % 11) % 10)) echo "CNPJ inválido.";
-            }
-            echo "CNPJ válido!";
+    function validaCNPJ($cnpj) {
+        $cnpj = preg_replace('/[^0-9]/', '', $cnpj);
+        if (strlen($cnpj) != 14 || preg_match("/^{$cnpj[0]}{14}$/", $cnpj)) {
+            return false;
         }
+        for ($t = 12; $t < 14; $t++) {
+            for ($d = 0, $p = $t; $p > 1; $p--, $d += $cnpj[$t - $p] * $p);
+            for ($p = 9, $d += $cnpj[$t - $p] * $p; $p > 1; $p--, $d += $cnpj[$t - $p] * $p);
+            if ($cnpj[$t] != ($d = ((10 * $d) % 11) % 10)) return false;
+        }
+        return true;
     }
+    
+    
+
 
     if(empty($erro)) {
-        $senha = password_hash($senha, PASSWORD_DEFAULT);
+        
         $stmt = $conexao->prepare("INSERT INTO instituicao(cnpj,nome,email,telefone,senha) VALUES (?, ?, ?, ?, ?)");
         $stmt->bind_param("sssss", $cnpj, $nome, $email, $telefone, $senha);
         $stmt->execute();

@@ -1,18 +1,18 @@
 <?php
     session_start();
     // print_r($_REQUEST);
-    if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha']))
+    if(isset($_POST['submit']) && !empty($_POST['cpf']) && !empty($_POST['senha']))
     {
         // Acessa
         include_once('config.php');
-        $email = $_POST['email'];
+        $cpf = $_POST['cpf'];
         $senha = $_POST['senha'];
 
         // print_r('Email: ' . $email);
         // print_r('<br>');
         // print_r('Senha: ' . $senha);
 
-        $sql = "SELECT * FROM voluntario WHERE email = '$email' and senha = '$senha'";
+        $sql = "SELECT * FROM voluntario WHERE cpf = '$cpf' and senha = '$senha'";
 
         $result = $conexao->query($sql);
 
@@ -21,20 +21,20 @@
 
         if(mysqli_num_rows($result) < 1)
         {
-            unset($_SESSION['email']);
+            unset($_SESSION['cpf']);
             unset($_SESSION['senha']);
-            header('Location: loginVoluntario.html');
+            echo" errado";
         }
         else
         {
-            $_SESSION['email'] = $email;
+            $_SESSION['cpf'] = $cpf;
             $_SESSION['senha'] = $senha;
-            header('Location: nada.php');
+            header('Location: ../pages/dashboardVoluntario.html');
         }
     }
     else
     {
         // Não acessa
-        header('Location: loginVoluntario.html');
+        header('Location: ../pages/loginVoluntario.html');
     }
 ?>
